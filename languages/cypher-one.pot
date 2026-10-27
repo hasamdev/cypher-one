@@ -1,0 +1,3901 @@
+# Copyright (C) 2026 Cypher-One
+# This file is distributed under the GNU General Public License v2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: Cypher-One 1.1.0\n"
+"Report-Msgid-Bugs-To: https://cypher-one.ai/\n"
+"POT-Creation-Date: 2026-10-19 13:24+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"X-Domain: cypher-one\n"
+
+#. Theme Name of the theme
+#: style.css
+msgid "Cypher-One"
+msgstr ""
+
+#. Description of the theme
+#: style.css
+msgid "Custom theme for Cypher-One — AI deployment and assurance for organisations in Qatar and the GCC. Converted from C1 Web Build 3 (website-new). Every section is editable from the dashboard with Secure Custom Fields (SCF), including the guided idea scorer, the cost-of-waiting calculator, the team, the contact form and the AI Readiness Assessment."
+msgstr ""
+
+#: footer.php:15
+msgid "Site footer"
+msgstr ""
+
+#: footer.php:22
+msgid "Social media"
+msgstr ""
+
+#. translators: 1: copyright holder, 2: year, 3: "All rights reserved."
+#: footer.php:57
+#, php-format
+msgid "© %1$s %2$s. %3$s"
+msgstr ""
+
+#: header.php:18
+msgid "Skip to main content"
+msgstr ""
+
+#: header.php:23
+msgid "Menu"
+msgstr ""
+
+#: header.php:24
+msgid "Main"
+msgstr ""
+
+#: inc/assessment.php:24 inc/assessment.php:26
+msgid "Assessments"
+msgstr ""
+
+#: inc/assessment.php:25 inc/assessment.php:28 inc/fields/options.php:76
+msgid "Assessment"
+msgstr ""
+
+#: inc/assessment.php:27
+msgid "All assessments"
+msgstr ""
+
+#: inc/assessment.php:29
+msgid "Search assessments"
+msgstr ""
+
+#: inc/assessment.php:30
+msgid "No assessments yet."
+msgstr ""
+
+#: inc/assessment.php:68
+msgid "Saving is turned off."
+msgstr ""
+
+#: inc/assessment.php:71
+msgid "Payload too large."
+msgstr ""
+
+#: inc/assessment.php:77
+msgid "Too many requests."
+msgstr ""
+
+#: inc/assessment.php:83 inc/assessment.php:87
+msgid "Invalid request."
+msgstr ""
+
+#: inc/assessment.php:141
+msgid "Composite score"
+msgstr ""
+
+#: inc/assessment.php:142
+msgid "Country"
+msgstr ""
+
+#: inc/assessment.php:143
+msgid "Organisation size"
+msgstr ""
+
+#: inc/assessment.php:144 inc/contact-form.php:110 inc/fields/about.php:37 inc/fields/contact.php:78
+msgid "Role"
+msgstr ""
+
+#: inc/assessment.php:145
+msgid "Sectors"
+msgstr ""
+
+#: inc/assessment.php:146
+msgid "AI usage"
+msgstr ""
+
+#: inc/assessment.php:149
+msgid "Scores by area"
+msgstr ""
+
+#: inc/assessment.php:156
+msgid "Named blockers"
+msgstr ""
+
+#. translators: 1: score, 2: band, 3: country.
+#: inc/assessment.php:178
+#, php-format
+msgid "Score %1$s · %2$s · %3$s"
+msgstr ""
+
+#: inc/assessment.php:188 inc/assessment.php:225 inc/assessment.php:334
+msgid "Could not save."
+msgstr ""
+
+#: inc/assessment.php:208
+msgid "Invalid email."
+msgstr ""
+
+#: inc/assessment.php:217
+msgid "Report request"
+msgstr ""
+
+#. translators: 1: email address, 2: summary, 3: admin link.
+#: inc/assessment.php:242
+#, php-format
+msgid "%1$s asked for a full review after taking the AI Readiness Assessment.\n\n%2$s\n\nView in the dashboard: %3$s"
+msgstr ""
+
+#: inc/assessment.php:247
+msgid "New AI Readiness Assessment report request"
+msgstr ""
+
+#: inc/assessment.php:263
+msgid "Report requested by"
+msgstr ""
+
+#: inc/assessment.php:309
+msgid "Please add your name and a valid work email."
+msgstr ""
+
+#. translators: 1: name, 2: organisation, 3: score.
+#: inc/assessment.php:316
+#, php-format
+msgid "%1$s — %2$s — %3$s"
+msgstr ""
+
+#. translators: 1: organisation or name, 2: score.
+#: inc/assessment.php:349
+#, php-format
+msgid "AI Readiness request — %1$s — %2$s"
+msgstr ""
+
+#: inc/assessment.php:353
+msgid "View in the dashboard:"
+msgstr ""
+
+#: inc/contact-form.php:18 inc/contact-form.php:20
+msgid "Enquiries"
+msgstr ""
+
+#: inc/contact-form.php:19 inc/contact-form.php:22
+msgid "Enquiry"
+msgstr ""
+
+#: inc/contact-form.php:21
+msgid "All enquiries"
+msgstr ""
+
+#: inc/contact-form.php:23
+msgid "Search enquiries"
+msgstr ""
+
+#: inc/contact-form.php:24
+msgid "No enquiries yet."
+msgstr ""
+
+#: inc/contact-form.php:106
+msgid "Request"
+msgstr ""
+
+#: inc/contact-form.php:107 inc/fields/about.php:36 inc/fields/approach.php:144
+msgid "Name"
+msgstr ""
+
+#: inc/contact-form.php:108 inc/fields/contact.php:76
+msgid "Organisation"
+msgstr ""
+
+#: inc/contact-form.php:109 inc/fields/about.php:72 inc/fields/options.php:46
+msgid "Email"
+msgstr ""
+
+#: inc/contact-form.php:111 inc/fields/contact.php:79
+msgid "Sector"
+msgstr ""
+
+#: inc/contact-form.php:112
+msgid "Message"
+msgstr ""
+
+#. translators: 1: name, 2: organisation or email.
+#: inc/contact-form.php:125
+#, php-format
+msgid "%1$s — %2$s"
+msgstr ""
+
+#. translators: %s: score. Keep the % sign.
+#: inc/enqueue.php:58
+#, php-format
+msgid "%s%"
+msgstr ""
+
+#. translators: 1: answered questions, 2: total questions.
+#: inc/enqueue.php:60
+#, php-format
+msgid "%1$d of %2$d answered."
+msgstr ""
+
+#: inc/enqueue.php:61
+msgid "Nothing major from these answers."
+msgstr ""
+
+#: inc/enqueue.php:62
+msgid "Nothing yet from these answers."
+msgstr ""
+
+#. translators: 1: currency code, 2: amount.
+#: inc/enqueue.php:64
+#, php-format
+msgid "%1$s %2$s"
+msgstr ""
+
+#. translators: 1: amount, 2: currency code.
+#: inc/enqueue.php:66
+#, php-format
+msgid "%1$s %2$s per month"
+msgstr ""
+
+#: inc/fields/about.php:12
+msgid "About page content"
+msgstr ""
+
+#: inc/fields/about.php:18
+msgid "Page 4 of 5"
+msgstr ""
+
+#: inc/fields/about.php:19
+msgid "The people who will do the work"
+msgstr ""
+
+#: inc/fields/about.php:20
+msgid "Who we are, and how to start a conversation. We measure our work by what your organisation can do on its own once we have left."
+msgstr ""
+
+#: inc/fields/about.php:22
+msgid "Smooth black and red layered curves"
+msgstr ""
+
+#: inc/fields/about.php:23
+msgid "Abstract · <a href=\"https://unsplash.com/\" rel=\"noopener\">Philip Oroni on Unsplash</a>"
+msgstr ""
+
+#: inc/fields/about.php:27
+msgid "Team"
+msgstr ""
+
+#: inc/fields/about.php:28 inc/fields/about.php:64 inc/fields/approach.php:71 inc/fields/approach.php:86 inc/fields/approach.php:136 inc/fields/approach.php:160
+msgid "Eyebrow"
+msgstr ""
+
+#: inc/fields/about.php:28
+msgid "The team"
+msgstr ""
+
+#: inc/fields/about.php:29 inc/fields/about.php:65 inc/fields/approach.php:72 inc/fields/approach.php:87 inc/fields/approach.php:96 inc/fields/approach.php:137
+msgid "Heading"
+msgstr ""
+
+#: inc/fields/about.php:29
+msgid "Who we are"
+msgstr ""
+
+#: inc/fields/about.php:30 inc/fields/about.php:66 inc/fields/approach.php:73 inc/fields/approach.php:138 inc/fields/approach.php:162 inc/fields/approach.php:183
+msgid "Introduction"
+msgstr ""
+
+#: inc/fields/about.php:30
+msgid "Three practitioners who have built, run and governed technology inside large organisations, not just advised on it. The people on this page are the people who do the work."
+msgstr ""
+
+#: inc/fields/about.php:33
+msgid "Team members"
+msgstr ""
+
+#: inc/fields/about.php:35
+msgid "Photo (4:5 portrait)"
+msgstr ""
+
+#: inc/fields/about.php:38
+msgid "Biography"
+msgstr ""
+
+#: inc/fields/about.php:44
+msgid "CEO"
+msgstr ""
+
+#: inc/fields/about.php:45
+msgid "Served as Director of Global Brand at Al Jazeera Media Network for nearly twenty years, contributing to the launch and development of its international channels and platforms. Earlier worked on innovation and interactive strategy at Apple and digital projects at KPMG. Also taught at the University of Toronto. Based in Doha."
+msgstr ""
+
+#: inc/fields/about.php:50
+msgid "Lead, AI Systems Strategy"
+msgstr ""
+
+#: inc/fields/about.php:51
+msgid "Board-level AI strategist with thirty years in technology and telecoms, including eight years as Director of B2B Digital Transformation at Etisalat. Has written AI-first operating models for telecoms companies, cut operating costs by over 30% through process redesign, and advises on AI sovereignty. Based in Saudi Arabia."
+msgstr ""
+
+#: inc/fields/about.php:56
+msgid "Lead, AI Solutions Architect"
+msgstr ""
+
+#: inc/fields/about.php:57
+msgid "Spent more than thirty years building ERP, CRM and tailored business systems for organisations in the UK and the Gulf, including six years running HansaWorld's Middle East operation. Now architects AI platforms, including a bilingual Arabic and English knowledge system for government. Fluent in Arabic and English. Based in London."
+msgstr ""
+
+#: inc/fields/about.php:60
+msgid "Add team member"
+msgstr ""
+
+#: inc/fields/about.php:63 inc/fields/about.php:64 inc/fields/sections.php:347 inc/fields/sections.php:348
+msgid "Talk to us"
+msgstr ""
+
+#: inc/fields/about.php:65
+msgid "Thirty minutes with the people on this page"
+msgstr ""
+
+#: inc/fields/about.php:66 inc/fields/sections.php:350
+msgid "Tell us what you want AI to achieve. We will tell you plainly where we think the value is, what it would take to get there, and whether we are the right people to help."
+msgstr ""
+
+#: inc/fields/about.php:67 inc/fields/sections.php:352
+msgid "Primary button label"
+msgstr ""
+
+#: inc/fields/about.php:67 inc/fields/sections.php:352
+msgid "Tell us what you need"
+msgstr ""
+
+#: inc/fields/about.php:68 inc/fields/sections.php:353
+msgid "Primary button link"
+msgstr ""
+
+#: inc/fields/about.php:69 inc/fields/sections.php:354
+msgid "Secondary button label"
+msgstr ""
+
+#: inc/fields/about.php:69 inc/fields/sections.php:354
+msgid "Or take the assessment first"
+msgstr ""
+
+#: inc/fields/about.php:70 inc/fields/sections.php:355
+msgid "Secondary button link"
+msgstr ""
+
+#: inc/fields/about.php:71
+msgid "Show contact details (from Cypher-One settings)"
+msgstr ""
+
+#: inc/fields/about.php:72 inc/fields/contact.php:77
+msgid "Label: email"
+msgstr ""
+
+#: inc/fields/about.php:73
+msgid "Label: response"
+msgstr ""
+
+#: inc/fields/about.php:73
+msgid "Response"
+msgstr ""
+
+#: inc/fields/about.php:74
+msgid "Label: based"
+msgstr ""
+
+#: inc/fields/about.php:74
+msgid "Based"
+msgstr ""
+
+#: inc/fields/approach.php:11
+msgid "Magnifier"
+msgstr ""
+
+#: inc/fields/approach.php:12
+msgid "Mortarboard"
+msgstr ""
+
+#: inc/fields/approach.php:13
+msgid "Bar chart"
+msgstr ""
+
+#: inc/fields/approach.php:14
+msgid "Blocks"
+msgstr ""
+
+#: inc/fields/approach.php:15
+msgid "Lines"
+msgstr ""
+
+#: inc/fields/approach.php:16
+msgid "Arrow"
+msgstr ""
+
+#: inc/fields/approach.php:17
+msgid "Bell"
+msgstr ""
+
+#: inc/fields/approach.php:18
+msgid "Shield"
+msgstr ""
+
+#: inc/fields/approach.php:19
+msgid "Compass"
+msgstr ""
+
+#: inc/fields/approach.php:40
+msgid "You get"
+msgstr ""
+
+#: inc/fields/approach.php:56
+msgid "Strategy"
+msgstr ""
+
+#: inc/fields/approach.php:57
+msgid "Data"
+msgstr ""
+
+#: inc/fields/approach.php:58
+msgid "Governance"
+msgstr ""
+
+#: inc/fields/approach.php:59
+msgid "Processes"
+msgstr ""
+
+#: inc/fields/approach.php:60
+msgid "People"
+msgstr ""
+
+#: inc/fields/approach.php:64
+msgid "“Our Approach” page content"
+msgstr ""
+
+#: inc/fields/approach.php:70 inc/fields/home.php:30 inc/fields/why.php:52
+msgid "Hero"
+msgstr ""
+
+#: inc/fields/approach.php:71
+msgid "Our approach"
+msgstr ""
+
+#: inc/fields/approach.php:72
+msgid "We fix the root causes in six steps. <span>Then we can keep watch.</span>"
+msgstr ""
+
+#: inc/fields/approach.php:73
+msgid "Analyse, Educate, Prioritise, Build, Govern and Accelerate. Each one closes one or more of the <a class=\"ln-more\" href=\"{why}#root-causes\">five reasons AI fails</a>. We do it with your people, and after go-live our assurance service can keep watch for you."
+msgstr ""
+
+#: inc/fields/approach.php:73
+msgid "Page tokens such as {why} work inside links here too."
+msgstr ""
+
+#: inc/fields/approach.php:74
+msgid "Diagram centre: small label"
+msgstr ""
+
+#: inc/fields/approach.php:74
+msgid "ONGOING"
+msgstr ""
+
+#: inc/fields/approach.php:75
+msgid "Diagram centre: title"
+msgstr ""
+
+#: inc/fields/approach.php:75
+msgid "Assurance"
+msgstr ""
+
+#: inc/fields/approach.php:76
+msgid "Diagram centre: note"
+msgstr ""
+
+#: inc/fields/approach.php:76
+msgid "reviewed quarterly"
+msgstr ""
+
+#: inc/fields/approach.php:78 inc/fields/home.php:95 inc/fields/why.php:75 inc/schema.php:313
+msgid "Photo band"
+msgstr ""
+
+#: inc/fields/approach.php:79 inc/fields/home.php:96 inc/fields/why.php:76 inc/schema.php:314
+msgid "Show the photo band"
+msgstr ""
+
+#: inc/fields/approach.php:80 inc/fields/home.php:97 inc/fields/why.php:77 inc/schema.php:315
+msgid "Photo"
+msgstr ""
+
+#: inc/fields/approach.php:81 inc/fields/home.php:98 inc/fields/why.php:78 inc/schema.php:316
+msgid "Alternative text"
+msgstr ""
+
+#: inc/fields/approach.php:81
+msgid "Abstract amber and dark curves on black"
+msgstr ""
+
+#: inc/fields/approach.php:82 inc/fields/home.php:99 inc/fields/why.php:79 inc/schema.php:317
+msgid "Caption / credit"
+msgstr ""
+
+#: inc/fields/approach.php:82 inc/fields/home.php:99
+msgid "Abstract · <a href=\"https://unsplash.com/\" rel=\"noopener\">Pawel Czerwinski on Unsplash</a>"
+msgstr ""
+
+#: inc/fields/approach.php:85 inc/fields/approach.php:86
+msgid "Six steps"
+msgstr ""
+
+#: inc/fields/approach.php:87
+msgid "What we do, what you get, and which root cause it fixes"
+msgstr ""
+
+#: inc/fields/approach.php:88
+msgid "“Fixes:” label"
+msgstr ""
+
+#: inc/fields/approach.php:88
+msgid "Fixes:"
+msgstr ""
+
+#: inc/fields/approach.php:91 inc/fields/home.php:133 inc/fields/sections.php:94
+msgid "Steps"
+msgstr ""
+
+#: inc/fields/approach.php:93
+msgid "Anchor"
+msgstr ""
+
+#: inc/fields/approach.php:93
+msgid "Heading id becomes anchor-title, e.g. #govern-title."
+msgstr ""
+
+#: inc/fields/approach.php:94 inc/fields/approach.php:188 inc/fields/options.php:46
+msgid "Icon"
+msgstr ""
+
+#: inc/fields/approach.php:95
+msgid "Step name"
+msgstr ""
+
+#: inc/fields/approach.php:97 inc/fields/approach.php:169 inc/fields/home.php:136 inc/fields/options.php:90 inc/fields/sections.php:50 inc/fields/sections.php:98
+msgid "Text"
+msgstr ""
+
+#: inc/fields/approach.php:98
+msgid "Checklist"
+msgstr ""
+
+#: inc/fields/approach.php:98
+msgid "Item"
+msgstr ""
+
+#: inc/fields/approach.php:99
+msgid "“You get” label"
+msgstr ""
+
+#: inc/fields/approach.php:100 inc/fields/home.php:178
+msgid "What you get"
+msgstr ""
+
+#: inc/fields/approach.php:103
+msgid "Fixes (root cause tags)"
+msgstr ""
+
+#: inc/fields/approach.php:105
+msgid "Tag"
+msgstr ""
+
+#: inc/fields/approach.php:106 inc/fields/approach.php:112 inc/fields/home.php:137 inc/fields/home.php:152 inc/fields/home.php:196 inc/fields/why.php:105
+msgid "Link"
+msgstr ""
+
+#: inc/fields/approach.php:111 inc/fields/home.php:151 inc/fields/home.php:195 inc/fields/options.php:91 inc/fields/thanks.php:18 inc/fields/why.php:104
+msgid "Link label"
+msgstr ""
+
+#: inc/fields/approach.php:115 inc/fields/home.php:140
+msgid "Analyse"
+msgstr ""
+
+#: inc/fields/approach.php:115
+msgid "See what you have, and where it pays"
+msgstr ""
+
+#: inc/fields/approach.php:115
+msgid "We find every AI tool already in use and check whether your organisation, data and controls are ready for more."
+msgstr ""
+
+#: inc/fields/approach.php:115
+msgid "Every AI tool, vendor and data flow listed"
+msgstr ""
+
+#: inc/fields/approach.php:115
+msgid "Data readiness checked for the processes that matter"
+msgstr ""
+
+#: inc/fields/approach.php:115
+msgid "Organisation readiness and governance: the risk and compliance gaps"
+msgstr ""
+
+#: inc/fields/approach.php:115
+msgid "The AI Opportunity and Risk Report, written for your board."
+msgstr ""
+
+#: inc/fields/approach.php:115
+msgid "What the AI Adoption Review delivers"
+msgstr ""
+
+#: inc/fields/approach.php:116 inc/fields/home.php:141
+msgid "Educate"
+msgstr ""
+
+#: inc/fields/approach.php:116
+msgid "Tailored training for every level"
+msgstr ""
+
+#: inc/fields/approach.php:116
+msgid "Training built around your roles, your tools and your use cases, so people use AI well and question it when it is wrong."
+msgstr ""
+
+#: inc/fields/approach.php:116
+msgid "Leaders: set the direction and judge which ideas pay"
+msgstr ""
+
+#: inc/fields/approach.php:116
+msgid "Managers: run AI inside their teams and measure it"
+msgstr ""
+
+#: inc/fields/approach.php:116
+msgid "Teams: hands-on with the tools they actually use"
+msgstr ""
+
+#: inc/fields/approach.php:116
+msgid "A training programme tailored to your organisation."
+msgstr ""
+
+#: inc/fields/approach.php:116 inc/fields/approach.php:165
+msgid "Who we train"
+msgstr ""
+
+#: inc/fields/approach.php:117 inc/fields/home.php:142
+msgid "Prioritise"
+msgstr ""
+
+#: inc/fields/approach.php:117
+msgid "Agree what goes first"
+msgstr ""
+
+#: inc/fields/approach.php:117
+msgid "Every idea is scored the same way on our use-case scorecard, so the budget goes where the return is."
+msgstr ""
+
+#: inc/fields/approach.php:117
+msgid "Ideas scored on six questions, by people with no stake in the answer"
+msgstr ""
+
+#: inc/fields/approach.php:117
+msgid "A shortlist with the expected return and cost of each"
+msgstr ""
+
+#: inc/fields/approach.php:117
+msgid "A 30, 90 and 180-day plan with owners"
+msgstr ""
+
+#: inc/fields/approach.php:117
+msgid "A ranked shortlist and a plan your board can sign off."
+msgstr ""
+
+#: inc/fields/approach.php:117
+msgid "How we score ideas"
+msgstr ""
+
+#: inc/fields/approach.php:118 inc/fields/home.php:143
+msgid "Build"
+msgstr ""
+
+#: inc/fields/approach.php:118
+msgid "Deliver secure, sovereign solutions"
+msgstr ""
+
+#: inc/fields/approach.php:118
+msgid "We design and oversee; vetted partners build and integrate. The work is redesigned around the AI with the people who do it."
+msgstr ""
+
+#: inc/fields/approach.php:118
+msgid "Hosted in-country or on your premises where it matters"
+msgstr ""
+
+#: inc/fields/approach.php:118
+msgid "Tested and red-teamed before go-live: we try to make it misbehave before anyone else does"
+msgstr ""
+
+#: inc/fields/approach.php:118
+msgid "Workflows redesigned with the people who do the work"
+msgstr ""
+
+#: inc/fields/approach.php:118
+msgid "AI in production that fits how your people work."
+msgstr ""
+
+#: inc/fields/approach.php:118
+msgid "See the operating model"
+msgstr ""
+
+#: inc/fields/approach.php:119 inc/fields/home.php:144
+msgid "Govern"
+msgstr ""
+
+#: inc/fields/approach.php:119
+msgid "One set of rules over every kind of AI"
+msgstr ""
+
+#: inc/fields/approach.php:119
+msgid "Owners, limits and approvals are built into the systems, so the next tool follows the same rules as the last."
+msgstr ""
+
+#: inc/fields/approach.php:119
+msgid "A named owner and limits for every system"
+msgstr ""
+
+#: inc/fields/approach.php:119
+msgid "A person approves where the consequences are high"
+msgstr ""
+
+#: inc/fields/approach.php:119
+msgid "Mapped to PDPPL, NCSA and QCB requirements"
+msgstr ""
+
+#: inc/fields/approach.php:119
+msgid "An AI operating model your own teams run."
+msgstr ""
+
+#: inc/fields/approach.php:119
+msgid "Ongoing assurance"
+msgstr ""
+
+#: inc/fields/approach.php:120 inc/fields/home.php:145
+msgid "Accelerate"
+msgstr ""
+
+#: inc/fields/approach.php:120
+msgid "Then approve new AI faster"
+msgstr ""
+
+#: inc/fields/approach.php:120
+msgid "Once the risky uses are controlled, the safe ones get a fast track, and what works is scaled."
+msgstr ""
+
+#: inc/fields/approach.php:120
+msgid "Fast-track approval for low-risk uses"
+msgstr ""
+
+#: inc/fields/approach.php:120
+msgid "What works scaled across the organisation"
+msgstr ""
+
+#: inc/fields/approach.php:120
+msgid "One view of return for the board, every quarter"
+msgstr ""
+
+#: inc/fields/approach.php:120
+msgid "More AI in use, safely, with the return measured."
+msgstr ""
+
+#: inc/fields/approach.php:120
+msgid "What waiting costs you"
+msgstr ""
+
+#: inc/fields/approach.php:122 inc/fields/sections.php:125
+msgid "Add step"
+msgstr ""
+
+#: inc/fields/approach.php:128 inc/fields/approach.php:129
+msgid "How we prioritise"
+msgstr ""
+
+#: inc/fields/approach.php:135 inc/fields/approach.php:136
+msgid "One operating model"
+msgstr ""
+
+#: inc/fields/approach.php:137
+msgid "You already have several kinds of AI. We make them work as one."
+msgstr ""
+
+#: inc/fields/approach.php:138
+msgid "Most organisations bought AI in pieces, from different vendors, over several years. We put one set of rules over all of it, on one foundation your teams can run."
+msgstr ""
+
+#: inc/fields/approach.php:139 inc/fields/home.php:51
+msgid "Description for screen readers"
+msgstr ""
+
+#: inc/fields/approach.php:139
+msgid "Six kinds of AI most organisations already run"
+msgstr ""
+
+#: inc/fields/approach.php:142
+msgid "Kinds of AI"
+msgstr ""
+
+#: inc/fields/approach.php:145 inc/fields/why.php:153
+msgid "Description"
+msgstr ""
+
+#: inc/fields/approach.php:148
+msgid "Existing systems"
+msgstr ""
+
+#: inc/fields/approach.php:148
+msgid "Finance, HR, customer and core platforms, where the real data lives."
+msgstr ""
+
+#: inc/fields/approach.php:149
+msgid "Rules and automation"
+msgstr ""
+
+#: inc/fields/approach.php:149
+msgid "If this, then that. Predictable and easy to audit."
+msgstr ""
+
+#: inc/fields/approach.php:150
+msgid "Machine learning"
+msgstr ""
+
+#: inc/fields/approach.php:150
+msgid "Predictions from your past data: churn, fraud, demand."
+msgstr ""
+
+#: inc/fields/approach.php:151
+msgid "Reading text"
+msgstr ""
+
+#: inc/fields/approach.php:151
+msgid "Pulls what matters from contracts and emails, in Arabic and English."
+msgstr ""
+
+#: inc/fields/approach.php:152
+msgid "Generative AI"
+msgstr ""
+
+#: inc/fields/approach.php:152
+msgid "Writes, summarises and answers. The kind most often used without approval."
+msgstr ""
+
+#: inc/fields/approach.php:153 inc/fields/why.php:134 template-parts/charts/gap-chart.php:26
+msgid "Agents"
+msgstr ""
+
+#: inc/fields/approach.php:153
+msgid "AI that takes action. The biggest gains, and where limits matter most."
+msgstr ""
+
+#: inc/fields/approach.php:159 inc/fields/approach.php:160
+msgid "Built with your people"
+msgstr ""
+
+#: inc/fields/approach.php:161
+msgid "The capability stays when we leave"
+msgstr ""
+
+#: inc/fields/approach.php:162
+msgid "We design and oversee. Vetted partners build and integrate. The competence is yours."
+msgstr ""
+
+#: inc/fields/approach.php:167
+msgid "Group"
+msgstr ""
+
+#: inc/fields/approach.php:172 inc/fields/why.php:111
+msgid "Leaders"
+msgstr ""
+
+#: inc/fields/approach.php:172
+msgid "Set the direction"
+msgstr ""
+
+#: inc/fields/approach.php:172
+msgid "Decide where AI goes and judge which ideas will pay."
+msgstr ""
+
+#: inc/fields/approach.php:173
+msgid "Managers"
+msgstr ""
+
+#: inc/fields/approach.php:173
+msgid "Run it"
+msgstr ""
+
+#: inc/fields/approach.php:173
+msgid "Put AI inside their teams’ work and measure what it returns."
+msgstr ""
+
+#: inc/fields/approach.php:174
+msgid "Teams"
+msgstr ""
+
+#: inc/fields/approach.php:174
+msgid "Use it well"
+msgstr ""
+
+#: inc/fields/approach.php:174
+msgid "Get the most from AI, and question it when it is wrong."
+msgstr ""
+
+#: inc/fields/approach.php:180 inc/fields/approach.php:181
+msgid "Assurance service"
+msgstr ""
+
+#: inc/fields/approach.php:182
+msgid "After go-live, we can keep watch. <span class=\"as-h\">Monitored throughout, reviewed with you every quarter.</span>"
+msgstr ""
+
+#: inc/fields/approach.php:183
+msgid "A paid service for clients with AI in production. We monitor the AI you use on an ongoing basis, and every quarter we review the findings with you and report to your board. You hear about a problem from us first, not from a customer, an auditor or a regulator."
+msgstr ""
+
+#: inc/fields/approach.php:186
+msgid "Columns"
+msgstr ""
+
+#: inc/fields/approach.php:190
+msgid "Items (one per line)"
+msgstr ""
+
+#: inc/fields/approach.php:193
+msgid "Alert"
+msgstr ""
+
+#: inc/fields/approach.php:193
+msgid "New or unapproved AI tools"
+msgstr ""
+
+#: inc/fields/approach.php:193
+msgid "Sensitive data going where it should not"
+msgstr ""
+
+#: inc/fields/approach.php:193
+msgid "Systems behaving outside their limits"
+msgstr ""
+
+#: inc/fields/approach.php:194
+msgid "Protect"
+msgstr ""
+
+#: inc/fields/approach.php:194
+msgid "Every tool checked against your rules and Qatar’s requirements"
+msgstr ""
+
+#: inc/fields/approach.php:194
+msgid "High-risk uses held for a person to approve"
+msgstr ""
+
+#: inc/fields/approach.php:194
+msgid "The evidence trail auditors ask for"
+msgstr ""
+
+#: inc/fields/approach.php:195
+msgid "Guide"
+msgstr ""
+
+#: inc/fields/approach.php:195
+msgid "What to fix first, in plain language"
+msgstr ""
+
+#: inc/fields/approach.php:195
+msgid "Return tracked against each baseline"
+msgstr ""
+
+#: inc/fields/approach.php:195
+msgid "A quarterly review and board report"
+msgstr ""
+
+#: inc/fields/approach.php:200 inc/fields/approach.php:201
+msgid "Start here"
+msgstr ""
+
+#: inc/fields/approach.php:202
+msgid "Find out which foundation to build first"
+msgstr ""
+
+#: inc/fields/approach.php:203
+msgid "The assessment scores you on the five root causes and shows where you stand today."
+msgstr ""
+
+#: inc/fields/approach.php:204 inc/fields/contact.php:84 inc/fields/home.php:45 inc/fields/home.php:120 inc/fields/home.php:149 inc/fields/home.php:193
+msgid "Button label"
+msgstr ""
+
+#: inc/fields/approach.php:204 inc/fields/home.php:45 inc/fields/home.php:109 inc/fields/home.php:149 inc/fields/home.php:193 inc/fields/why.php:179
+msgid "Take the AI readiness assessment"
+msgstr ""
+
+#: inc/fields/approach.php:205 inc/fields/home.php:46 inc/fields/home.php:121 inc/fields/home.php:150 inc/fields/home.php:194 inc/fields/sections.php:241
+msgid "Button link"
+msgstr ""
+
+#: inc/fields/assessment.php:12
+msgid "AI Readiness Assessment settings"
+msgstr ""
+
+#: inc/fields/assessment.php:16
+msgid "App"
+msgstr ""
+
+#: inc/fields/assessment.php:17
+msgid "Assessment name"
+msgstr ""
+
+#: inc/fields/assessment.php:17
+msgid "Cypher-One AI Readiness Assessment"
+msgstr ""
+
+#: inc/fields/assessment.php:18
+msgid "Tagline"
+msgstr ""
+
+#: inc/fields/assessment.php:18
+msgid "Ambition is not the constraint. Execution is."
+msgstr ""
+
+#: inc/fields/assessment.php:19
+msgid "Rubric version"
+msgstr ""
+
+#: inc/fields/assessment.php:19
+msgid "Version 1"
+msgstr ""
+
+#: inc/fields/assessment.php:20
+msgid "Aligned as of"
+msgstr ""
+
+#: inc/fields/assessment.php:20
+msgid "August 2026"
+msgstr ""
+
+#: inc/fields/assessment.php:21
+msgid "Header label"
+msgstr ""
+
+#: inc/fields/assessment.php:21
+msgid "AI Readiness"
+msgstr ""
+
+#: inc/fields/assessment.php:22
+msgid "Footer text (left)"
+msgstr ""
+
+#: inc/fields/assessment.php:22
+msgid "Cypher-One AI Readiness Assessment · Version 1 · August 2026"
+msgstr ""
+
+#: inc/fields/assessment.php:23
+msgid "Footer text (right)"
+msgstr ""
+
+#: inc/fields/assessment.php:23
+msgid "Cypher-One — Enable · Empower · Excel"
+msgstr ""
+
+#: inc/fields/assessment.php:24
+msgid "“Back to website” button"
+msgstr ""
+
+#: inc/fields/assessment.php:24
+msgid "Back to website"
+msgstr ""
+
+#: inc/fields/assessment.php:25
+msgid "Language switch label"
+msgstr ""
+
+#: inc/fields/assessment.php:26
+msgid "Questions and scoring"
+msgstr ""
+
+#: inc/fields/assessment.php:26
+msgid "The assessment’s questions, scoring rubric and its English/Arabic copy live in assets/js/assessment.js. Results and report requests are saved under Assessments in the dashboard (see Cypher-One → Assessment)."
+msgstr ""
+
+#: inc/fields/contact.php:11
+msgid "Healthcare & Medical"
+msgstr ""
+
+#: inc/fields/contact.php:12
+msgid "Financial Services"
+msgstr ""
+
+#: inc/fields/contact.php:13
+msgid "Government & Public Sector"
+msgstr ""
+
+#: inc/fields/contact.php:14
+msgid "HR & Recruitment"
+msgstr ""
+
+#: inc/fields/contact.php:15
+msgid "Legal Services"
+msgstr ""
+
+#: inc/fields/contact.php:16
+msgid "Education"
+msgstr ""
+
+#: inc/fields/contact.php:17
+msgid "Security & Law Enforcement"
+msgstr ""
+
+#: inc/fields/contact.php:18
+msgid "Transportation & Logistics"
+msgstr ""
+
+#: inc/fields/contact.php:19
+msgid "Energy & Utilities"
+msgstr ""
+
+#: inc/fields/contact.php:20
+msgid "Manufacturing & Industrial"
+msgstr ""
+
+#: inc/fields/contact.php:21
+msgid "Real Estate & Construction"
+msgstr ""
+
+#: inc/fields/contact.php:22
+msgid "Hospitality & Tourism"
+msgstr ""
+
+#: inc/fields/contact.php:23
+msgid "Telecommunications"
+msgstr ""
+
+#: inc/fields/contact.php:24
+msgid "Media / Technology"
+msgstr ""
+
+#: inc/fields/contact.php:25
+msgid "Retail & E-commerce"
+msgstr ""
+
+#: inc/fields/contact.php:26
+msgid "Other"
+msgstr ""
+
+#: inc/fields/contact.php:39
+msgid "Contact page content"
+msgstr ""
+
+#: inc/fields/contact.php:45
+msgid "Page 5 of 5"
+msgstr ""
+
+#: inc/fields/contact.php:46
+msgid "Tell us where we can help you"
+msgstr ""
+
+#: inc/fields/contact.php:47
+msgid "Pick the closest option, add a line or two in your own words, and we will reply within one business day with a plain view of whether and how we can help."
+msgstr ""
+
+#: inc/fields/contact.php:49
+msgid "Golden particle wave on black"
+msgstr ""
+
+#: inc/fields/contact.php:50
+msgid "Abstract · <a href=\"https://unsplash.com/\" rel=\"noopener\">BoliviaInteligente on Unsplash</a>"
+msgstr ""
+
+#: inc/fields/contact.php:54
+msgid "Form"
+msgstr ""
+
+#: inc/fields/contact.php:55
+msgid "Options heading"
+msgstr ""
+
+#: inc/fields/contact.php:55
+msgid "What would you like from us?"
+msgstr ""
+
+#: inc/fields/contact.php:58
+msgid "Options"
+msgstr ""
+
+#: inc/fields/contact.php:60
+msgid "Label shown"
+msgstr ""
+
+#: inc/fields/contact.php:61
+msgid "Short name in the email"
+msgstr ""
+
+#: inc/fields/contact.php:62
+msgid "Ask for details"
+msgstr ""
+
+#: inc/fields/contact.php:65
+msgid "A 30-minute conversation"
+msgstr ""
+
+#: inc/fields/contact.php:65
+msgid "A 30-minute conversation about where AI could advance my organisation"
+msgstr ""
+
+#: inc/fields/contact.php:66
+msgid "An in-depth readiness review"
+msgstr ""
+
+#: inc/fields/contact.php:66
+msgid "An in-depth readiness review across strategy, data, governance, process and people"
+msgstr ""
+
+#: inc/fields/contact.php:67
+msgid "AI Adoption Review on one process"
+msgstr ""
+
+#: inc/fields/contact.php:67
+msgid "An AI Adoption Review of one priority process"
+msgstr ""
+
+#: inc/fields/contact.php:68
+msgid "Manage risk and bring existing AI under control"
+msgstr ""
+
+#: inc/fields/contact.php:68
+msgid "Manage risk and bring the AI we already use under control"
+msgstr ""
+
+#: inc/fields/contact.php:69
+msgid "Capability building for our people"
+msgstr ""
+
+#: inc/fields/contact.php:69
+msgid "Capability building for our leaders and teams"
+msgstr ""
+
+#: inc/fields/contact.php:70 inc/fields/contact.php:70
+msgid "Something else"
+msgstr ""
+
+#: inc/fields/contact.php:74
+msgid "“Something else” placeholder"
+msgstr ""
+
+#: inc/fields/contact.php:74
+msgid "Tell us what, in a few words"
+msgstr ""
+
+#: inc/fields/contact.php:75
+msgid "Label: name"
+msgstr ""
+
+#: inc/fields/contact.php:75
+msgid "Your name"
+msgstr ""
+
+#: inc/fields/contact.php:76
+msgid "Label: organisation"
+msgstr ""
+
+#: inc/fields/contact.php:77
+msgid "Work email"
+msgstr ""
+
+#: inc/fields/contact.php:78
+msgid "Label: role"
+msgstr ""
+
+#: inc/fields/contact.php:79
+msgid "Label: sector"
+msgstr ""
+
+#: inc/fields/contact.php:80
+msgid "Sector placeholder"
+msgstr ""
+
+#: inc/fields/contact.php:80
+msgid "Select the sector you operate in"
+msgstr ""
+
+#: inc/fields/contact.php:81
+msgid "Sectors (one per line)"
+msgstr ""
+
+#: inc/fields/contact.php:82
+msgid "Label: message"
+msgstr ""
+
+#: inc/fields/contact.php:82
+msgid "In your own words"
+msgstr ""
+
+#: inc/fields/contact.php:83
+msgid "Message placeholder"
+msgstr ""
+
+#: inc/fields/contact.php:83
+msgid "What is the problem, the idea, or the question you want answered?"
+msgstr ""
+
+#: inc/fields/contact.php:84
+msgid "Send"
+msgstr ""
+
+#: inc/fields/contact.php:85
+msgid "Email alternative text"
+msgstr ""
+
+#: inc/fields/contact.php:85
+msgid "Prefer email?"
+msgstr ""
+
+#: inc/fields/home.php:16
+msgid "Home page content"
+msgstr ""
+
+#: inc/fields/home.php:31
+msgid "Location pill"
+msgstr ""
+
+#: inc/fields/home.php:31
+msgid "Qatar · GCC · Global"
+msgstr ""
+
+#: inc/fields/home.php:32
+msgid "“Everyone says we need AI. <span>Nobody can tell us where it will pay.”</span>"
+msgstr ""
+
+#: inc/fields/home.php:32
+msgid "Wrap the second part in <span>…</span> to show it in red."
+msgstr ""
+
+#: inc/fields/home.php:35
+msgid "Quotes from leadership teams"
+msgstr ""
+
+#: inc/fields/home.php:36
+msgid "Quote"
+msgstr ""
+
+#: inc/fields/home.php:38
+msgid "“We’ve run pilots. None of them made it into the business.”"
+msgstr ""
+
+#: inc/fields/home.php:39
+msgid "“Our staff use ChatGPT every day. I don’t know what data they’re putting into it.”"
+msgstr ""
+
+#: inc/fields/home.php:40
+msgid "“The board wants an AI strategy. Every vendor says their tool is the answer.”"
+msgstr ""
+
+#: inc/fields/home.php:44
+msgid "Quotes: accessible label"
+msgstr ""
+
+#: inc/fields/home.php:44
+msgid "What we hear from leadership teams"
+msgstr ""
+
+#: inc/fields/home.php:47
+msgid "Show the animated wire background"
+msgstr ""
+
+#: inc/fields/home.php:49
+msgid "Hero illustration"
+msgstr ""
+
+#: inc/fields/home.php:50
+msgid "Caption"
+msgstr ""
+
+#: inc/fields/home.php:50
+msgid "Lots of AI. Little of it checked."
+msgstr ""
+
+#: inc/fields/home.php:51
+msgid "Illustration: AI tools across departments, most of which never pass checks for return, risk, workflow fit or strategy"
+msgstr ""
+
+#: inc/fields/home.php:54
+msgid "Checks (top row, 4)"
+msgstr ""
+
+#: inc/fields/home.php:55 inc/fields/home.php:66 inc/fields/home.php:79 inc/fields/sections.php:172
+msgid "Label"
+msgstr ""
+
+#: inc/fields/home.php:56
+msgid "Meets ROI"
+msgstr ""
+
+#: inc/fields/home.php:56
+msgid "Risk assessed"
+msgstr ""
+
+#: inc/fields/home.php:56
+msgid "Fits the workflow"
+msgstr ""
+
+#: inc/fields/home.php:56
+msgid "Aligned to strategy"
+msgstr ""
+
+#: inc/fields/home.php:65
+msgid "Departments (bottom row, 6)"
+msgstr ""
+
+#: inc/fields/home.php:67
+msgid "Finance"
+msgstr ""
+
+#: inc/fields/home.php:67
+msgid "HR"
+msgstr ""
+
+#: inc/fields/home.php:67
+msgid "Sales"
+msgstr ""
+
+#: inc/fields/home.php:67
+msgid "Operations"
+msgstr ""
+
+#: inc/fields/home.php:67
+msgid "Legal"
+msgstr ""
+
+#: inc/fields/home.php:67
+msgid "Marketing"
+msgstr ""
+
+#: inc/fields/home.php:76
+msgid "Figures (4)"
+msgstr ""
+
+#: inc/fields/home.php:78
+msgid "Figure"
+msgstr ""
+
+#: inc/fields/home.php:80
+msgid "Red"
+msgstr ""
+
+#: inc/fields/home.php:83
+msgid "AI tools in use"
+msgstr ""
+
+#: inc/fields/home.php:84
+msgid "approved"
+msgstr ""
+
+#: inc/fields/home.php:85
+msgid "risk assessed"
+msgstr ""
+
+#: inc/fields/home.php:86
+msgid "return on AI spend"
+msgstr ""
+
+#: inc/fields/home.php:98
+msgid "Abstract folded red curves on black"
+msgstr ""
+
+#: inc/fields/home.php:104
+msgid "Fewer leaders put a number on the risk of not moving. Move the sliders to see yours."
+msgstr ""
+
+#: inc/fields/home.php:108 inc/fields/subpages.php:36
+msgid "The real question is which of that work is safe to hand to AI and where a person has to stay in the loop. That is what an AI Adoption Review answers."
+msgstr ""
+
+#: inc/fields/home.php:116 inc/fields/sections.php:39 inc/fields/why.php:184
+msgid "Readiness gap"
+msgstr ""
+
+#: inc/fields/home.php:117 inc/fields/sections.php:40 inc/setup-content.php:31
+msgid "The readiness gap"
+msgstr ""
+
+#: inc/fields/home.php:118
+msgid "AI is moving faster than most organisations are ready for."
+msgstr ""
+
+#: inc/fields/home.php:119
+msgid "The space between what AI can do and what you are ready for is where value is lost and risk grows."
+msgstr ""
+
+#: inc/fields/home.php:120
+msgid "Where are you on the curve?"
+msgstr ""
+
+#: inc/fields/home.php:122
+msgid "“Read more” label"
+msgstr ""
+
+#: inc/fields/home.php:122
+msgid "Read more"
+msgstr ""
+
+#: inc/fields/home.php:123
+msgid "“Read more” link"
+msgstr ""
+
+#: inc/fields/home.php:124 inc/fields/sections.php:43 inc/fields/why.php:185
+msgid "Chart caption"
+msgstr ""
+
+#: inc/fields/home.php:124 inc/fields/sections.php:43
+msgid "A conceptual picture of the pattern we see in client organisations."
+msgstr ""
+
+#: inc/fields/home.php:127 inc/fields/home.php:128
+msgid "You’re not alone"
+msgstr ""
+
+#: inc/fields/home.php:129
+msgid "Most organisations are in the same place. You don’t have to fix it alone."
+msgstr ""
+
+#: inc/fields/home.php:130
+msgid "Our founders are consulting on and implementing AI solutions for large enterprises across the GCC today. We fix it in six steps:"
+msgstr ""
+
+#: inc/fields/home.php:135
+msgid "Step"
+msgstr ""
+
+#: inc/fields/home.php:140
+msgid "Know where AI will pay, and whether you are ready."
+msgstr ""
+
+#: inc/fields/home.php:141
+msgid "Tailored training, so your people use AI well."
+msgstr ""
+
+#: inc/fields/home.php:142
+msgid "Agree which ideas go first, with a plan and owners."
+msgstr ""
+
+#: inc/fields/home.php:143
+msgid "Secure, sovereign solutions that fit how people work."
+msgstr ""
+
+#: inc/fields/home.php:144
+msgid "Clear owners, limits and compliance built into the systems."
+msgstr ""
+
+#: inc/fields/home.php:145
+msgid "Deploy faster, and prove the return."
+msgstr ""
+
+#: inc/fields/home.php:151 inc/fields/sections.php:88 inc/fields/sections.php:89 inc/fields/why.php:111 inc/setup-content.php:33
+msgid "How we work"
+msgstr ""
+
+#: inc/fields/home.php:157 inc/fields/home.php:158
+msgid "Score your idea"
+msgstr ""
+
+#: inc/fields/home.php:159
+msgid "Not every idea needs AI."
+msgstr ""
+
+#: inc/fields/home.php:161 inc/fields/subpages.php:22
+msgid "This is a quick, indicative read from six answers. In an AI Adoption Review we validate it properly, with your data and your people."
+msgstr ""
+
+#: inc/fields/home.php:162 inc/fields/subpages.php:23
+msgid "Book a 30-minute call"
+msgstr ""
+
+#: inc/fields/home.php:167
+msgid "Sub-heading"
+msgstr ""
+
+#: inc/fields/home.php:167
+msgid "Test one idea against our use-case scorecard"
+msgstr ""
+
+#: inc/fields/home.php:170 inc/fields/home.php:171 inc/fields/subpages.php:11 inc/setup-content.php:32 inc/template-functions.php:389
+msgid "AI Adoption Review"
+msgstr ""
+
+#: inc/fields/home.php:172
+msgid "A full picture before you spend. A report you can act on."
+msgstr ""
+
+#: inc/fields/home.php:173
+msgid "A comprehensive assessment for AI adoption, across your organisation or one priority process. You get a report your board can read and your team can execute."
+msgstr ""
+
+#: inc/fields/home.php:174 inc/fields/sections.php:313
+msgid "Report cover title"
+msgstr ""
+
+#: inc/fields/home.php:174 inc/fields/sections.php:313
+msgid "Cypher-One AI Opportunity and Risk Report"
+msgstr ""
+
+#: inc/fields/home.php:175 inc/fields/sections.php:44
+msgid "List heading"
+msgstr ""
+
+#: inc/fields/home.php:175
+msgid "You get:"
+msgstr ""
+
+#: inc/fields/home.php:180
+msgid "Bold start"
+msgstr ""
+
+#: inc/fields/home.php:181
+msgid "Rest of the sentence"
+msgstr ""
+
+#: inc/fields/home.php:184
+msgid "Every AI tool already in use"
+msgstr ""
+
+#: inc/fields/home.php:184
+msgid "across your organisation, approved or not."
+msgstr ""
+
+#: inc/fields/home.php:185
+msgid "Your AI ideas scored,"
+msgstr ""
+
+#: inc/fields/home.php:185
+msgid "with the expected return for each."
+msgstr ""
+
+#: inc/fields/home.php:186
+msgid "Organisation readiness:"
+msgstr ""
+
+#: inc/fields/home.php:186
+msgid "how ready your people, processes and leadership are."
+msgstr ""
+
+#: inc/fields/home.php:187
+msgid "Governance:"
+msgstr ""
+
+#: inc/fields/home.php:187
+msgid "where you stand on risk and compliance."
+msgstr ""
+
+#: inc/fields/home.php:188
+msgid "What must be fixed first:"
+msgstr ""
+
+#: inc/fields/home.php:188
+msgid "data, owners and controls."
+msgstr ""
+
+#: inc/fields/home.php:189
+msgid "A 30/90/180-day plan,"
+msgstr ""
+
+#: inc/fields/home.php:189
+msgid "and a team to deliver it."
+msgstr ""
+
+#: inc/fields/home.php:195
+msgid "See what’s in the report"
+msgstr ""
+
+#: inc/fields/home.php:201
+msgid "Thirty minutes to discuss your needs"
+msgstr ""
+
+#: inc/fields/home.php:202
+msgid "Tell us what you want AI to achieve. We will tell you where we see the value, what it would take, and how we can help."
+msgstr ""
+
+#: inc/fields/home.php:204
+msgid "Book 30 minutes"
+msgstr ""
+
+#: inc/fields/options.php:14
+msgid "Cypher-One site settings"
+msgstr ""
+
+#: inc/fields/options.php:25
+msgid "Brand"
+msgstr ""
+
+#: inc/fields/options.php:26
+msgid "Word mark: first word"
+msgstr ""
+
+#: inc/fields/options.php:26
+msgid "Upload an image logo under Appearance → Customize → Site Identity to replace the word mark."
+msgstr ""
+
+#: inc/fields/options.php:27
+msgid "Word mark: separator"
+msgstr ""
+
+#: inc/fields/options.php:28
+msgid "Word mark: second word"
+msgstr ""
+
+#: inc/fields/options.php:29
+msgid "Logo tagline"
+msgstr ""
+
+#: inc/fields/options.php:29
+msgid "AI Deployment and Assurance"
+msgstr ""
+
+#: inc/fields/options.php:30
+msgid "Browser theme colour"
+msgstr ""
+
+#: inc/fields/options.php:32
+msgid "Contact details"
+msgstr ""
+
+#: inc/fields/options.php:33
+msgid "Public email address"
+msgstr ""
+
+#: inc/fields/options.php:34
+msgid "Response time"
+msgstr ""
+
+#: inc/fields/options.php:34
+msgid "Within one business day"
+msgstr ""
+
+#: inc/fields/options.php:35
+msgid "Response time (footer)"
+msgstr ""
+
+#: inc/fields/options.php:35
+msgid "Replies within one business day"
+msgstr ""
+
+#: inc/fields/options.php:36
+msgid "Location"
+msgstr ""
+
+#: inc/fields/options.php:36
+msgid "Doha, Qatar"
+msgstr ""
+
+#: inc/fields/options.php:37
+msgid "Where we are based (long)"
+msgstr ""
+
+#: inc/fields/options.php:37
+msgid "Doha, Qatar · working across the GCC"
+msgstr ""
+
+#: inc/fields/options.php:38
+msgid "Website shown in reports"
+msgstr ""
+
+#: inc/fields/options.php:40
+msgid "Footer"
+msgstr ""
+
+#: inc/fields/options.php:41
+msgid "About text"
+msgstr ""
+
+#: inc/fields/options.php:41
+msgid "Cypher-One helps leaders in Qatar and the GCC find where AI pays, build the data and governance it depends on, and keep it safe and sovereign after go-live."
+msgstr ""
+
+#: inc/fields/options.php:44
+msgid "Social links"
+msgstr ""
+
+#: inc/fields/options.php:47
+msgid "URL (or mailto:)"
+msgstr ""
+
+#: inc/fields/options.php:48
+msgid "Accessible label"
+msgstr ""
+
+#: inc/fields/options.php:54
+msgid "Cypher-One on LinkedIn"
+msgstr ""
+
+#: inc/fields/options.php:59
+msgid "Email Cypher-One"
+msgstr ""
+
+#: inc/fields/options.php:64
+msgid "Column heading: pages"
+msgstr ""
+
+#: inc/fields/options.php:64 inc/setup-content.php:418
+msgid "Pages"
+msgstr ""
+
+#: inc/fields/options.php:64
+msgid "The links in each column are managed under Appearance → Menus."
+msgstr ""
+
+#: inc/fields/options.php:65
+msgid "Column heading: tools"
+msgstr ""
+
+#: inc/fields/options.php:65 template-parts/charts/gap-chart.php:26
+msgid "Tools"
+msgstr ""
+
+#: inc/fields/options.php:66
+msgid "Column heading: contact"
+msgstr ""
+
+#: inc/fields/options.php:66 inc/setup-content.php:25 inc/template-functions.php:372 inc/template-functions.php:381
+msgid "Contact"
+msgstr ""
+
+#: inc/fields/options.php:67
+msgid "Copyright holder"
+msgstr ""
+
+#: inc/fields/options.php:68
+msgid "Rights line"
+msgstr ""
+
+#: inc/fields/options.php:68
+msgid "All rights reserved."
+msgstr ""
+
+#: inc/fields/options.php:69
+msgid "Footer note"
+msgstr ""
+
+#: inc/fields/options.php:69
+msgid "This site sets no cookies and runs no trackers."
+msgstr ""
+
+#: inc/fields/options.php:71 page-templates/contact.php:24
+msgid "Contact form"
+msgstr ""
+
+#: inc/fields/options.php:72
+msgid "Send enquiries to"
+msgstr ""
+
+#: inc/fields/options.php:72
+msgid "Enquiries are emailed here and also saved under Enquiries in the dashboard."
+msgstr ""
+
+#: inc/fields/options.php:73
+msgid "Email subject"
+msgstr ""
+
+#: inc/fields/options.php:73
+msgid "New enquiry from the Cypher-One website"
+msgstr ""
+
+#: inc/fields/options.php:74
+msgid "Error message"
+msgstr ""
+
+#: inc/fields/options.php:74
+msgid "Please add your name, a valid work email and your sector, then send again."
+msgstr ""
+
+#: inc/fields/options.php:77
+msgid "Receive assessment requests in WordPress"
+msgstr ""
+
+#: inc/fields/options.php:77
+msgid "When on, the “Let’s dive deeper” form at the end of the assessment saves each request, with the visitor’s full results, under Assessments in the dashboard and emails it to the address below. Nothing is sent unless the visitor submits that form."
+msgstr ""
+
+#: inc/fields/options.php:78
+msgid "Email assessment requests to"
+msgstr ""
+
+#: inc/fields/options.php:79
+msgid "Web3Forms access key (optional)"
+msgstr ""
+
+#: inc/fields/options.php:79
+msgid "Only if you prefer Web3Forms: paste a key here and requests go to Web3Forms instead of WordPress."
+msgstr ""
+
+#: inc/fields/options.php:81
+msgid "SEO & sharing"
+msgstr ""
+
+#: inc/fields/options.php:82
+msgid "Default meta description"
+msgstr ""
+
+#: inc/fields/options.php:82
+msgid "AI is moving from a tool your people use to systems that act for you. Cypher-One helps leaders in Qatar and the GCC find where AI pays, build the data and governance it depends on, and keep it safe after go-live. Take the AI readiness assessment."
+msgstr ""
+
+#: inc/fields/options.php:82
+msgid "Skipped automatically when an SEO plugin (Yoast, Rank Math, SEOPress, AIOSEO) is active."
+msgstr ""
+
+#: inc/fields/options.php:83
+msgid "Default sharing image (1200 × 630)"
+msgstr ""
+
+#: inc/fields/options.php:84
+msgid "Sharing image alt text"
+msgstr ""
+
+#: inc/fields/options.php:84
+msgid "Cypher-One: AI delivers real returns when it is built on the right foundation"
+msgstr ""
+
+#: inc/fields/options.php:85
+msgid "Organisation alternate name (structured data)"
+msgstr ""
+
+#: inc/fields/options.php:86
+msgid "Organisation description (structured data)"
+msgstr ""
+
+#: inc/fields/options.php:86
+msgid "AI deployment and assurance for organisations in Qatar and the GCC: finding where AI pays, building the data and governance it depends on, and keeping it safe after go-live."
+msgstr ""
+
+#: inc/fields/options.php:88
+msgid "404 page"
+msgstr ""
+
+#: inc/fields/options.php:89
+msgid "That page is not here"
+msgstr ""
+
+#: inc/fields/options.php:90
+msgid "The link may be old, or the page may have moved."
+msgstr ""
+
+#: inc/fields/options.php:91 inc/fields/thanks.php:18
+msgid "Back to the homepage"
+msgstr ""
+
+#: inc/fields/sections.php:41
+msgid "What AI could do for you is growing faster than most organisations are ready for"
+msgstr ""
+
+#: inc/fields/sections.php:42
+msgid "AI's potential grows every few months, while an organisation's readiness grows in steps, and the space between the two is the readiness gap: the technology can do more than the organisation around it is set up to handle. It is also an opportunity gap, because that same space is the value AI could be returning to you right now, and is not."
+msgstr ""
+
+#: inc/fields/sections.php:44
+msgid "What the gap looks like in practice"
+msgstr ""
+
+#: inc/fields/sections.php:47
+msgid "Points"
+msgstr ""
+
+#: inc/fields/sections.php:54
+msgid "The technology arrives before the organisation is ready for it"
+msgstr ""
+
+#: inc/fields/sections.php:55
+msgid "Tools get adopted faster than the people, data, processes and rules around them can adjust."
+msgstr ""
+
+#: inc/fields/sections.php:58
+msgid "Decisions outpace review"
+msgstr ""
+
+#: inc/fields/sections.php:59
+msgid "When a system acts in seconds, a weekly approval meeting cannot see what happened, let alone stop it."
+msgstr ""
+
+#: inc/fields/sections.php:62
+msgid "Ownership blurs"
+msgstr ""
+
+#: inc/fields/sections.php:63
+msgid "When a result comes from several systems, it is not clear who is accountable for it. Boards and regulators will still ask."
+msgstr ""
+
+#: inc/fields/sections.php:66
+msgid "Closing the gap is management work, not a software purchase"
+msgstr ""
+
+#: inc/fields/sections.php:67
+msgid "It is about how the organisation decides, owns, measures and changes. That is where we work."
+msgstr ""
+
+#: inc/fields/sections.php:71 inc/fields/sections.php:127 inc/fields/sections.php:186 inc/fields/sections.php:242 inc/fields/sections.php:292 inc/fields/sections.php:330
+msgid "Closing question"
+msgstr ""
+
+#: inc/fields/sections.php:71
+msgid "Where is your organisation on this chart today, and is the gap getting wider or narrower?"
+msgstr ""
+
+#: inc/fields/sections.php:90
+msgid "We look at the whole picture before we recommend anything"
+msgstr ""
+
+#: inc/fields/sections.php:91
+msgid "Most AI advice starts with a use case; we start with everything already there, the systems, the AI in use, the data, the people and their skills, the processes and the rules, then sort it against one rubric and decide what makes sense, in what order. We do it with your people, not around them, so the organisation can repeat the exercise without us."
+msgstr ""
+
+#: inc/fields/sections.php:96
+msgid "Step label"
+msgstr ""
+
+#: inc/fields/sections.php:99 inc/fields/sections.php:236
+msgid "Result label"
+msgstr ""
+
+#: inc/fields/sections.php:100
+msgid "Result"
+msgstr ""
+
+#: inc/fields/sections.php:104
+msgid "Step 1"
+msgstr ""
+
+#: inc/fields/sections.php:105
+msgid "Look at everything"
+msgstr ""
+
+#: inc/fields/sections.php:106
+msgid "One inventory, not a wish list. Every system, every AI tool already in use (approved or not), where the data sits and who owns it, how the work actually flows, who does what, and which rules already apply."
+msgstr ""
+
+#: inc/fields/sections.php:107 inc/fields/sections.php:114 inc/fields/sections.php:121
+msgid "Result:"
+msgstr ""
+
+#: inc/fields/sections.php:108
+msgid "a plain map of your organisation as it is today."
+msgstr ""
+
+#: inc/fields/sections.php:111
+msgid "Step 2"
+msgstr ""
+
+#: inc/fields/sections.php:112
+msgid "Sort it against one rubric"
+msgstr ""
+
+#: inc/fields/sections.php:113
+msgid "Everything on the map is placed under the five parts of readiness: strategy and direction, data and technology, governance and risk, processes and operating model, people, skills and change. Each part gets an honest score."
+msgstr ""
+
+#: inc/fields/sections.php:115
+msgid "you can see where you are strong, where you are exposed, and how the pieces connect."
+msgstr ""
+
+#: inc/fields/sections.php:118
+msgid "Step 3"
+msgstr ""
+
+#: inc/fields/sections.php:119
+msgid "Decide what makes sense"
+msgstr ""
+
+#: inc/fields/sections.php:120
+msgid "Only now do we talk about what to do. Some things need fixing before any AI will work. Some AI should be stopped or brought under control. Some ideas are ready to build. Some should be left alone."
+msgstr ""
+
+#: inc/fields/sections.php:122
+msgid "a short list, in order, with a reason for each item."
+msgstr ""
+
+#: inc/fields/sections.php:127
+msgid "If someone had to list every AI tool, data source and process in your organisation today, how long would the list be, and who would know?"
+msgstr ""
+
+#: inc/fields/sections.php:144 inc/fields/sections.php:145
+msgid "How we find value"
+msgstr ""
+
+#: inc/fields/sections.php:146
+msgid "How we tell which AI ideas are worth doing"
+msgstr ""
+
+#: inc/fields/sections.php:147
+msgid "Before you spend a riyal, every idea is scored the same way, against the same questions, by people with no stake in the answer. The score weighs what an idea could return against what it would take to make it work and keep it safe."
+msgstr ""
+
+#: inc/fields/sections.php:150 inc/fields/sections.php:214
+msgid "Questions"
+msgstr ""
+
+#: inc/fields/sections.php:152 inc/fields/sections.php:216 inc/fields/sections.php:351 inc/fields/why.php:178
+msgid "Question"
+msgstr ""
+
+#: inc/fields/sections.php:153
+msgid "Explanation"
+msgstr ""
+
+#: inc/fields/sections.php:156
+msgid "Is the Return Real?"
+msgstr ""
+
+#: inc/fields/sections.php:156
+msgid "And can it be measured, so you know afterwards whether it worked."
+msgstr ""
+
+#: inc/fields/sections.php:157
+msgid "Is the Organisation Ready for It?"
+msgstr ""
+
+#: inc/fields/sections.php:157
+msgid "The data, the process and the rules it would depend on."
+msgstr ""
+
+#: inc/fields/sections.php:158
+msgid "Does the Organisation Have the Capability?"
+msgstr ""
+
+#: inc/fields/sections.php:158
+msgid "The people, the skills and the leadership to run it well, not just to launch it."
+msgstr ""
+
+#: inc/fields/sections.php:159
+msgid "Can It Be Controlled?"
+msgstr ""
+
+#: inc/fields/sections.php:159
+msgid "Who owns it, what it may do, and whether it complies with the rules that apply to you."
+msgstr ""
+
+#: inc/fields/sections.php:160
+msgid "Is AI Good Enough at This Today?"
+msgstr ""
+
+#: inc/fields/sections.php:160
+msgid "Some tasks it does reliably. Some it does not yet. We say which."
+msgstr ""
+
+#: inc/fields/sections.php:161
+msgid "Can It Be Hosted the Way You Need?"
+msgstr ""
+
+#: inc/fields/sections.php:161
+msgid "In line with Gulf data rules, in-country or on your premises where that matters."
+msgstr ""
+
+#: inc/fields/sections.php:165
+msgid "Example label"
+msgstr ""
+
+#: inc/fields/sections.php:165 inc/fields/why.php:182
+msgid "Illustrative"
+msgstr ""
+
+#: inc/fields/sections.php:166
+msgid "Example heading"
+msgstr ""
+
+#: inc/fields/sections.php:166
+msgid "What a scored idea looks like"
+msgstr ""
+
+#: inc/fields/sections.php:167
+msgid "Example verdict"
+msgstr ""
+
+#: inc/fields/sections.php:167
+msgid "Strong candidate"
+msgstr ""
+
+#: inc/fields/sections.php:170
+msgid "Example bars"
+msgstr ""
+
+#: inc/fields/sections.php:173
+msgid "Length (%)"
+msgstr ""
+
+#: inc/fields/sections.php:176
+msgid "Return"
+msgstr ""
+
+#: inc/fields/sections.php:177
+msgid "Readiness"
+msgstr ""
+
+#: inc/fields/sections.php:178
+msgid "Capability"
+msgstr ""
+
+#: inc/fields/sections.php:179
+msgid "Control"
+msgstr ""
+
+#: inc/fields/sections.php:180
+msgid "Feasibility"
+msgstr ""
+
+#: inc/fields/sections.php:181
+msgid "Hosting"
+msgstr ""
+
+#: inc/fields/sections.php:185
+msgid "Example note"
+msgstr ""
+
+#: inc/fields/sections.php:185
+msgid "Every idea gets the same bars. Long means ready; short means work to do first. Illustrative, not a real client."
+msgstr ""
+
+#: inc/fields/sections.php:186
+msgid "Take your most-talked-about AI idea. Which of these questions would it struggle to answer?"
+msgstr ""
+
+#: inc/fields/sections.php:203 inc/fields/sections.php:204
+msgid "Score your own idea"
+msgstr ""
+
+#: inc/fields/sections.php:205
+msgid "Describe one idea and get a first score in a minute"
+msgstr ""
+
+#: inc/fields/sections.php:206
+msgid "These are the same questions we ask in a discovery. Answer them for one idea and you will see what is working in its favour and what would hold it back — before anyone has spent money on it."
+msgstr ""
+
+#: inc/fields/sections.php:207
+msgid "Idea box label"
+msgstr ""
+
+#: inc/fields/sections.php:207
+msgid "What would you like AI to do?"
+msgstr ""
+
+#: inc/fields/sections.php:208
+msgid "Idea box placeholder"
+msgstr ""
+
+#: inc/fields/sections.php:208
+msgid "What is your use case or idea?"
+msgstr ""
+
+#: inc/fields/sections.php:209
+msgid "Starting score"
+msgstr ""
+
+#: inc/fields/sections.php:209
+msgid "Each answer adds or subtracts its weight from this."
+msgstr ""
+
+#: inc/fields/sections.php:210
+msgid "Lowest score shown"
+msgstr ""
+
+#: inc/fields/sections.php:211
+msgid "Highest score shown"
+msgstr ""
+
+#: inc/fields/sections.php:219
+msgid "Answers"
+msgstr ""
+
+#: inc/fields/sections.php:221
+msgid "Answer"
+msgstr ""
+
+#: inc/fields/sections.php:222
+msgid "Weight"
+msgstr ""
+
+#: inc/fields/sections.php:223
+msgid "“Holding it back” note"
+msgstr ""
+
+#: inc/fields/sections.php:224
+msgid "“In your favour” note"
+msgstr ""
+
+#: inc/fields/sections.php:229
+msgid "Add answer"
+msgstr ""
+
+#: inc/fields/sections.php:234
+msgid "Add question"
+msgstr ""
+
+#: inc/fields/sections.php:236
+msgid "Indicative likelihood of success"
+msgstr ""
+
+#: inc/fields/sections.php:237
+msgid "“Holding it back” heading"
+msgstr ""
+
+#: inc/fields/sections.php:237
+msgid "What's holding it back"
+msgstr ""
+
+#: inc/fields/sections.php:238
+msgid "“In your favour” heading"
+msgstr ""
+
+#: inc/fields/sections.php:238
+msgid "In your favour"
+msgstr ""
+
+#: inc/fields/sections.php:239
+msgid "Caveat"
+msgstr ""
+
+#: inc/fields/sections.php:239
+msgid "This is a quick, indicative read from five answers. In a discovery we validate it properly, with your data and your people."
+msgstr ""
+
+#: inc/fields/sections.php:240
+msgid "Book a discovery session"
+msgstr ""
+
+#: inc/fields/sections.php:242
+msgid "Does the score surprise you? That reaction is usually the most useful part."
+msgstr ""
+
+#: inc/fields/sections.php:259 inc/template-functions.php:388
+msgid "Cost of waiting"
+msgstr ""
+
+#: inc/fields/sections.php:260
+msgid "The cost of waiting"
+msgstr ""
+
+#: inc/fields/sections.php:261 inc/setup-content.php:30
+msgid "What is waiting costing you?"
+msgstr ""
+
+#: inc/fields/sections.php:262
+msgid "Most leaders can name the risk of moving on AI. Fewer put a number on the risk of not moving. This estimate does that, using three figures you already know. Move the sliders."
+msgstr ""
+
+#: inc/fields/sections.php:263
+msgid "Panel heading"
+msgstr ""
+
+#: inc/fields/sections.php:263
+msgid "Your team"
+msgstr ""
+
+#: inc/fields/sections.php:264
+msgid "Currency"
+msgstr ""
+
+#: inc/fields/sections.php:265
+msgid "Reclaimable share of time (%)"
+msgstr ""
+
+#: inc/fields/sections.php:266
+msgid "Working hours per month"
+msgstr ""
+
+#: inc/fields/sections.php:267
+msgid "Weeks per month"
+msgstr ""
+
+#: inc/fields/sections.php:268
+msgid "Team size label"
+msgstr ""
+
+#: inc/fields/sections.php:268
+msgid "Team size"
+msgstr ""
+
+#: inc/fields/sections.php:269
+msgid "Team size maximum"
+msgstr ""
+
+#: inc/fields/sections.php:270
+msgid "Team size starting value"
+msgstr ""
+
+#: inc/fields/sections.php:271
+msgid "Hours label"
+msgstr ""
+
+#: inc/fields/sections.php:271
+msgid "Hours"
+msgstr ""
+
+#: inc/fields/sections.php:272
+msgid "Hours maximum"
+msgstr ""
+
+#: inc/fields/sections.php:273
+msgid "Hours starting value"
+msgstr ""
+
+#: inc/fields/sections.php:274
+msgid "Hours hint"
+msgstr ""
+
+#: inc/fields/sections.php:274
+msgid "Hours per week each person spends on manual, repeatable work (estimated)."
+msgstr ""
+
+#: inc/fields/sections.php:275
+msgid "Cost label"
+msgstr ""
+
+#: inc/fields/sections.php:275
+msgid "Average monthly cost of a team member"
+msgstr ""
+
+#: inc/fields/sections.php:276
+msgid "Cost maximum"
+msgstr ""
+
+#: inc/fields/sections.php:277
+msgid "Cost step"
+msgstr ""
+
+#: inc/fields/sections.php:278
+msgid "Cost starting value"
+msgstr ""
+
+#: inc/fields/sections.php:279
+msgid "How it works"
+msgstr ""
+
+#: inc/fields/sections.php:279
+msgid "<strong>How it works:</strong> team size × weekly manual hours × 4 weeks gives monthly hours; × hourly cost (monthly cost ÷ 160 hours) gives the monthly cost. We assume up to 80% of that time can be reclaimed with the right skills, redesigned workflows and clear governance. A planning estimate, not a quote."
+msgstr ""
+
+#: inc/fields/sections.php:280
+msgid "Label: productivity lost"
+msgstr ""
+
+#: inc/fields/sections.php:280
+msgid "Productivity lost every month"
+msgstr ""
+
+#: inc/fields/sections.php:281
+msgid "Label: per month suffix"
+msgstr ""
+
+#: inc/fields/sections.php:281
+msgid "/ month"
+msgstr ""
+
+#: inc/fields/sections.php:282
+msgid "Label: today"
+msgstr ""
+
+#: inc/fields/sections.php:282
+msgid "Today"
+msgstr ""
+
+#: inc/fields/sections.php:283
+msgid "Label: with the right foundation"
+msgstr ""
+
+#: inc/fields/sections.php:283
+msgid "With the right foundation"
+msgstr ""
+
+#: inc/fields/sections.php:284
+msgid "Label: reclaimable per month"
+msgstr ""
+
+#: inc/fields/sections.php:284
+msgid "Reclaimable / month"
+msgstr ""
+
+#: inc/fields/sections.php:285
+msgid "Label: reclaimable per year"
+msgstr ""
+
+#: inc/fields/sections.php:285
+msgid "Reclaimable / year"
+msgstr ""
+
+#: inc/fields/sections.php:286
+msgid "Capacity freed"
+msgstr ""
+
+#: inc/fields/sections.php:286
+msgid "Capacity freed: {fte} full-time roles"
+msgstr ""
+
+#: inc/fields/sections.php:286 inc/fields/sections.php:287 inc/fields/sections.php:289
+msgid "Live values: {hours}, {lost}, {save}, {year}, {left}, {fte}, {pct}."
+msgstr ""
+
+#: inc/fields/sections.php:287
+msgid "Summary paragraph 1"
+msgstr ""
+
+#: inc/fields/sections.php:287
+msgid "Your team spends about {hours} hours a month on manual, repeatable work. With the right skills, redesigned workflows and clear governance, up to {pct} of that time comes back, worth about {save} a month."
+msgstr ""
+
+#: inc/fields/sections.php:288
+msgid "Summary paragraph 2"
+msgstr ""
+
+#: inc/fields/sections.php:288
+msgid "The real question is which of that work is safe to hand to AI and where a person has to stay in the loop. That is what a discovery answers."
+msgstr ""
+
+#: inc/fields/sections.php:289
+msgid "Call to action text"
+msgstr ""
+
+#: inc/fields/sections.php:289
+msgid "Waiting costs about {year} a year in capacity you are already paying for."
+msgstr ""
+
+#: inc/fields/sections.php:290
+msgid "Turn this estimate into a plan →"
+msgstr ""
+
+#: inc/fields/sections.php:292
+msgid "If that capacity came back next quarter, what would you have your people do with it?"
+msgstr ""
+
+#: inc/fields/sections.php:309 inc/fields/sections.php:310
+msgid "What a discovery delivers"
+msgstr ""
+
+#: inc/fields/sections.php:311
+msgid "A fixed-price discovery that ends in a report you can act on, and a team that will guide you through the implementation"
+msgstr ""
+
+#: inc/fields/sections.php:312
+msgid "In two to four weeks we map one priority process and answer the same six questions we score every idea on. You receive a report your board and leadership can read, and your team can execute with our assistance."
+msgstr ""
+
+#: inc/fields/sections.php:316
+msgid "Report sections"
+msgstr ""
+
+#: inc/fields/sections.php:322 inc/fields/subpages.php:61
+msgid "The problem and what it costs"
+msgstr ""
+
+#: inc/fields/sections.php:322 inc/fields/subpages.php:61
+msgid "Where it sits in the process, and the number it is costing you today."
+msgstr ""
+
+#: inc/fields/sections.php:323 inc/fields/subpages.php:62
+msgid "The return, and how to measure it"
+msgstr ""
+
+#: inc/fields/sections.php:323 inc/fields/subpages.php:62
+msgid "What the idea is worth, with a baseline so you can prove it afterwards."
+msgstr ""
+
+#: inc/fields/sections.php:324 inc/fields/subpages.php:63
+msgid "What must be in place first"
+msgstr ""
+
+#: inc/fields/sections.php:324 inc/fields/subpages.php:63
+msgid "The data, the process changes and the rules the idea depends on."
+msgstr ""
+
+#: inc/fields/sections.php:325 inc/fields/subpages.php:64
+msgid "Who will own and run it"
+msgstr ""
+
+#: inc/fields/sections.php:325 inc/fields/subpages.php:64
+msgid "The people, skills and leadership needed, and the gaps."
+msgstr ""
+
+#: inc/fields/sections.php:326 inc/fields/subpages.php:65
+msgid "How it will be controlled"
+msgstr ""
+
+#: inc/fields/sections.php:326 inc/fields/subpages.php:65
+msgid "Limits built into the system, named owners, and compliance with the rules that apply to you."
+msgstr ""
+
+#: inc/fields/sections.php:327 inc/fields/subpages.php:66
+msgid "What to build, where to host it, and the plan"
+msgstr ""
+
+#: inc/fields/sections.php:327
+msgid "What AI can and cannot do here, an independent technology recommendation, in-country hosting where it matters, and a 30/90/180-day plan with a fixed price for phase one."
+msgstr ""
+
+#: inc/fields/sections.php:330
+msgid "Which one process, if it worked better, would your whole organisation feel?"
+msgstr ""
+
+#: inc/fields/sections.php:349
+msgid "Thirty minutes with the people who will do the work"
+msgstr ""
+
+#: inc/fields/sections.php:351
+msgid "What would you want to know by the end of those thirty minutes?"
+msgstr ""
+
+#: inc/fields/seo.php:12
+msgid "Search & sharing"
+msgstr ""
+
+#: inc/fields/seo.php:25
+msgid "Browser title"
+msgstr ""
+
+#: inc/fields/seo.php:25
+msgid "Optional. Replaces the whole title shown in the browser tab and search results."
+msgstr ""
+
+#: inc/fields/seo.php:26
+msgid "Meta description"
+msgstr ""
+
+#: inc/fields/seo.php:26
+msgid "Optional. Falls back to the default in Cypher-One settings."
+msgstr ""
+
+#: inc/fields/seo.php:27
+msgid "Sharing image"
+msgstr ""
+
+#: inc/fields/seo.php:27
+msgid "Optional. 1200 × 630."
+msgstr ""
+
+#: inc/fields/seo.php:28
+msgid "Hide from search engines"
+msgstr ""
+
+#: inc/fields/subpages.php:15
+msgid "“Score one idea” page content"
+msgstr ""
+
+#: inc/fields/subpages.php:21
+msgid "These are the same questions we ask in an AI Adoption Review. Answer them for one idea and you will see what is working in its favour and what would hold it back — before anyone has spent money on it."
+msgstr ""
+
+#: inc/fields/subpages.php:30
+msgid "“Cost of waiting” page content"
+msgstr ""
+
+#: inc/fields/subpages.php:44
+msgid "“Readiness gap” page content"
+msgstr ""
+
+#: inc/fields/subpages.php:50
+msgid "“AI Adoption Review” page content"
+msgstr ""
+
+#: inc/fields/subpages.php:58
+msgid "A comprehensive assessment for AI adoption, a report you can act on, and a team that will guide you through the implementation"
+msgstr ""
+
+#: inc/fields/subpages.php:59
+msgid "We map your organisation, or one priority process, and answer the same six questions we score every idea on. You receive a report your board and leadership can read, and your team can execute with our assistance."
+msgstr ""
+
+#: inc/fields/subpages.php:66
+msgid "What AI can and cannot do here, an independent technology recommendation, in-country hosting where it matters, and a 30/90/180-day plan with a costed first phase."
+msgstr ""
+
+#: inc/fields/subpages.php:74
+msgid "“How we work” page content"
+msgstr ""
+
+#: inc/fields/thanks.php:12
+msgid "Thank-you page content"
+msgstr ""
+
+#: inc/fields/thanks.php:16
+msgid "Thank you. We have it."
+msgstr ""
+
+#: inc/fields/thanks.php:17
+msgid "Someone from Cypher-One will reply within one business day. If it is urgent, email {email}."
+msgstr ""
+
+#: inc/fields/thanks.php:17
+msgid "{email} is replaced by the public email address."
+msgstr ""
+
+#: inc/fields/thanks.php:22 inc/schema.php:309
+msgid "Page intro"
+msgstr ""
+
+#: inc/fields/thanks.php:27 inc/setup-content.php:26 inc/template-functions.php:382 inc/template-functions.php:393
+msgid "Privacy"
+msgstr ""
+
+#: inc/fields/thanks.php:28
+msgid "How this site treats your information"
+msgstr ""
+
+#: inc/fields/thanks.php:29
+msgid "Short, because there is not much to say. This site collects as little as possible."
+msgstr ""
+
+#: inc/fields/thanks.php:31 inc/fields/why.php:78
+msgid "Abstract glowing orange light wave on black"
+msgstr ""
+
+#: inc/fields/thanks.php:32 inc/fields/why.php:79
+msgid "Abstract · <a href=\"https://unsplash.com/\" rel=\"noopener\">Unsplash</a>"
+msgstr ""
+
+#: inc/fields/thanks.php:36
+msgid "Small print"
+msgstr ""
+
+#: inc/fields/thanks.php:37
+msgid "Closing note"
+msgstr ""
+
+#: inc/fields/thanks.php:37
+msgid "Last updated 16 October 2026. Legal entity, registered address and a named data contact to be added before launch."
+msgstr ""
+
+#: inc/fields/thanks.php:37
+msgid "The page body itself is edited in the main editor."
+msgstr ""
+
+#: inc/fields/why.php:12 inc/fields/why.php:103
+msgid "How we fix it"
+msgstr ""
+
+#: inc/fields/why.php:47
+msgid "“Why AI fails” page content"
+msgstr ""
+
+#: inc/fields/why.php:53 inc/setup-content.php:22 inc/setup-content.php:485 inc/template-functions.php:369 inc/template-functions.php:378
+msgid "Why AI fails"
+msgstr ""
+
+#: inc/fields/why.php:54
+msgid "95% of organisations see no return from generative AI. <span>It is rarely the technology.</span>"
+msgstr ""
+
+#: inc/fields/why.php:55
+msgid "Across the research, the same five root causes come up again and again. None of them is the model. Each is something a leadership team can fix, and each is something we fix with you."
+msgstr ""
+
+#: inc/fields/why.php:58
+msgid "Source badges"
+msgstr ""
+
+#: inc/fields/why.php:60 inc/fields/why.php:94 inc/fields/why.php:154
+msgid "Source"
+msgstr ""
+
+#: inc/fields/why.php:61 inc/fields/why.php:95 inc/fields/why.php:155
+msgid "Year"
+msgstr ""
+
+#: inc/fields/why.php:62
+msgid "URL"
+msgstr ""
+
+#: inc/fields/why.php:69
+msgid "Chart: red squares (out of 100)"
+msgstr ""
+
+#: inc/fields/why.php:70
+msgid "Chart: description for screen readers"
+msgstr ""
+
+#: inc/fields/why.php:70
+msgid "100 squares, 95 grey and 5 red: 5 in 100 organisations see a return from generative AI"
+msgstr ""
+
+#: inc/fields/why.php:71
+msgid "Chart key: grey"
+msgstr ""
+
+#: inc/fields/why.php:71
+msgid "No measurable return"
+msgstr ""
+
+#: inc/fields/why.php:72
+msgid "Chart key: red"
+msgstr ""
+
+#: inc/fields/why.php:72
+msgid "Measurable return"
+msgstr ""
+
+#: inc/fields/why.php:73
+msgid "Chart key: note"
+msgstr ""
+
+#: inc/fields/why.php:73
+msgid "each square is 1% of organisations"
+msgstr ""
+
+#: inc/fields/why.php:82
+msgid "Five root causes"
+msgstr ""
+
+#: inc/fields/why.php:83
+msgid "The five root causes"
+msgstr ""
+
+#: inc/fields/why.php:84
+msgid "What actually stops AI paying back, and how we fix it"
+msgstr ""
+
+#: inc/fields/why.php:87
+msgid "Root causes"
+msgstr ""
+
+#: inc/fields/why.php:89
+msgid "Anchor id"
+msgstr ""
+
+#: inc/fields/why.php:89
+msgid "Used by links such as {why}#cause-data."
+msgstr ""
+
+#: inc/fields/why.php:90
+msgid "Area label"
+msgstr ""
+
+#: inc/fields/why.php:93
+msgid "Key figure sentence"
+msgstr ""
+
+#: inc/fields/why.php:96 inc/fields/why.php:156
+msgid "Source URL"
+msgstr ""
+
+#: inc/fields/why.php:97
+msgid "Chart"
+msgstr ""
+
+#: inc/fields/why.php:97
+msgid "Ring (one figure)"
+msgstr ""
+
+#: inc/fields/why.php:97
+msgid "Two bars (compare)"
+msgstr ""
+
+#: inc/fields/why.php:98 inc/fields/why.php:152
+msgid "Figure (%)"
+msgstr ""
+
+#: inc/fields/why.php:99
+msgid "Second figure (%) — bars only"
+msgstr ""
+
+#: inc/fields/why.php:100
+msgid "Bar 1 label"
+msgstr ""
+
+#: inc/fields/why.php:101
+msgid "Bar 2 label"
+msgstr ""
+
+#: inc/fields/why.php:102
+msgid "“How we fix it” label"
+msgstr ""
+
+#: inc/fields/why.php:108
+msgid "1 · Strategy and direction"
+msgstr ""
+
+#: inc/fields/why.php:108
+msgid "Nobody measures the value"
+msgstr ""
+
+#: inc/fields/why.php:108
+msgid "AI is started because it is expected, not tied to a goal. With no baseline there is no proof, so the funding stops."
+msgstr ""
+
+#: inc/fields/why.php:108
+msgid "Only 37% of organisations attribute any EBIT impact to their AI use."
+msgstr ""
+
+#: inc/fields/why.php:108
+msgid "We tie every AI idea to a business goal and a baseline before anything is built, using our use-case scorecard."
+msgstr ""
+
+#: inc/fields/why.php:108
+msgid "Score an idea"
+msgstr ""
+
+#: inc/fields/why.php:109
+msgid "2 · Data and technology"
+msgstr ""
+
+#: inc/fields/why.php:109
+msgid "Your data isn’t ready"
+msgstr ""
+
+#: inc/fields/why.php:109
+msgid "Scattered, duplicated, and nobody owns it. The pilot works on clean data the real business does not have."
+msgstr ""
+
+#: inc/fields/why.php:109
+msgid "60% of AI projects without AI-ready data are expected to be abandoned through 2026."
+msgstr ""
+
+#: inc/fields/why.php:109
+msgid "We map where your data sits, who owns it and whether it can be trusted, then fix what the first use case needs."
+msgstr ""
+
+#: inc/fields/why.php:109
+msgid "How the AI Adoption Review works"
+msgstr ""
+
+#: inc/fields/why.php:110
+msgid "3 · Governance and risk"
+msgstr ""
+
+#: inc/fields/why.php:110
+msgid "Nobody owns the risk"
+msgstr ""
+
+#: inc/fields/why.php:110
+msgid "AI spreads informally. Nobody is accountable, and leadership hears about it last."
+msgstr ""
+
+#: inc/fields/why.php:110
+msgid "52% of department-level AI initiatives run with no formal approval or oversight."
+msgstr ""
+
+#: inc/fields/why.php:110
+msgid "We find every AI tool in use, name an owner for each, and build approvals and limits into the systems, not into a policy document."
+msgstr ""
+
+#: inc/fields/why.php:110
+msgid "How we govern"
+msgstr ""
+
+#: inc/fields/why.php:111
+msgid "4 · Processes and operating model"
+msgstr ""
+
+#: inc/fields/why.php:111
+msgid "It doesn’t fit how people work"
+msgstr ""
+
+#: inc/fields/why.php:111
+msgid "The tool sits beside the process, not inside it. People drift back to the old way."
+msgstr ""
+
+#: inc/fields/why.php:111
+msgid "About three-quarters of AI high performers redesigned their workflows, against about a quarter of other companies."
+msgstr ""
+
+#: inc/fields/why.php:111
+msgid "We redesign the process around the AI with the people who do the work, so it becomes how work gets done."
+msgstr ""
+
+#: inc/fields/why.php:111
+msgid "Others"
+msgstr ""
+
+#: inc/fields/why.php:112
+msgid "5 · People, skills and change"
+msgstr ""
+
+#: inc/fields/why.php:112
+msgid "Nobody was prepared"
+msgstr ""
+
+#: inc/fields/why.php:112
+msgid "Staff are not trained to use AI well, or to question it when it is wrong."
+msgstr ""
+
+#: inc/fields/why.php:112
+msgid "Only 36% of employees feel adequately trained in AI use."
+msgstr ""
+
+#: inc/fields/why.php:112
+msgid "We train leaders and teams to use AI well and to challenge it, so adoption lasts after we leave."
+msgstr ""
+
+#: inc/fields/why.php:112
+msgid "How we train your people"
+msgstr ""
+
+#: inc/fields/why.php:114
+msgid "Add root cause"
+msgstr ""
+
+#: inc/fields/why.php:118
+msgid "Risk timeline"
+msgstr ""
+
+#: inc/fields/why.php:119
+msgid "Why it is getting harder"
+msgstr ""
+
+#: inc/fields/why.php:120
+msgid "Every step of AI adoption adds value, and adds risk"
+msgstr ""
+
+#: inc/fields/why.php:121
+msgid "Adoption rarely happens by decision. It happens by accumulation: a few people try a tool, a team builds it into a process, someone connects it to a system, and one day it is running parts of the business. Most organisations are already past the first stage. Select one to see what changes."
+msgstr ""
+
+#: inc/fields/why.php:124
+msgid "Stages"
+msgstr ""
+
+#: inc/fields/why.php:126
+msgid "Stage name"
+msgstr ""
+
+#: inc/fields/why.php:127
+msgid "Summary"
+msgstr ""
+
+#: inc/fields/why.php:128 page-templates/why-ai-stalls.php:127
+msgid "What changes"
+msgstr ""
+
+#: inc/fields/why.php:129 page-templates/why-ai-stalls.php:127
+msgid "New exposure"
+msgstr ""
+
+#: inc/fields/why.php:132
+msgid "AI adoption"
+msgstr ""
+
+#: inc/fields/why.php:132
+msgid "Staff start using assistants and copilots on their own initiative."
+msgstr ""
+
+#: inc/fields/why.php:132
+msgid "Individual productivity rises, quickly and unevenly."
+msgstr ""
+
+#: inc/fields/why.php:132
+msgid "Company data goes to outside models with no clear rules."
+msgstr ""
+
+#: inc/fields/why.php:133 template-parts/charts/gap-chart.php:26
+msgid "Automation"
+msgstr ""
+
+#: inc/fields/why.php:133
+msgid "AI is built into routine work such as drafting, triage and summarising."
+msgstr ""
+
+#: inc/fields/why.php:133
+msgid "Output scales across teams."
+msgstr ""
+
+#: inc/fields/why.php:133
+msgid "Errors repeat at scale, and the review steps quietly disappear."
+msgstr ""
+
+#: inc/fields/why.php:134
+msgid "Systems begin to take actions across your tools: sending, filing, updating, paying."
+msgstr ""
+
+#: inc/fields/why.php:134
+msgid "Work moves without a person at each step. Yesterday's AI answered a question in ChatGPT or Copilot and a person decided what to do. An agent reads the inbox, updates the record and raises the order itself."
+msgstr ""
+
+#: inc/fields/why.php:134
+msgid "Actions are taken without clear authority or a record of what was done."
+msgstr ""
+
+#: inc/fields/why.php:135 template-parts/charts/gap-chart.php:26
+msgid "Autonomy"
+msgstr ""
+
+#: inc/fields/why.php:135
+msgid "Systems chain decisions together with less human review in between."
+msgstr ""
+
+#: inc/fields/why.php:135
+msgid "Decisions happen faster than anyone can check."
+msgstr ""
+
+#: inc/fields/why.php:135
+msgid "Outcomes emerge that nobody explicitly chose."
+msgstr ""
+
+#: inc/fields/why.php:136
+msgid "Organisational complexity"
+msgstr ""
+
+#: inc/fields/why.php:136
+msgid "Many systems, models and vendors interact across the business."
+msgstr ""
+
+#: inc/fields/why.php:136
+msgid "Capability compounds across functions."
+msgstr ""
+
+#: inc/fields/why.php:136
+msgid "Unexpected interactions, unclear ownership, and dependence on vendors you cannot see into."
+msgstr ""
+
+#: inc/fields/why.php:137
+msgid "New risk surface"
+msgstr ""
+
+#: inc/fields/why.php:137
+msgid "AI now touches data, decisions, customers and reputation at once."
+msgstr ""
+
+#: inc/fields/why.php:137
+msgid "AI becomes part of how the organisation runs."
+msgstr ""
+
+#: inc/fields/why.php:137
+msgid "Behaviour and risk that your existing controls were never designed for."
+msgstr ""
+
+#: inc/fields/why.php:139
+msgid "Add stage"
+msgstr ""
+
+#: inc/fields/why.php:144
+msgid "Control gap"
+msgstr ""
+
+#: inc/fields/why.php:145
+msgid "The control gap"
+msgstr ""
+
+#: inc/fields/why.php:146
+msgid "Adoption has run ahead of control."
+msgstr ""
+
+#: inc/fields/why.php:147
+msgid "When something goes wrong, the governance usually was not there."
+msgstr ""
+
+#: inc/fields/why.php:150
+msgid "Figures"
+msgstr ""
+
+#: inc/fields/why.php:159
+msgid "of organisations that suffered a breach had no AI governance policy, or were still writing one."
+msgstr ""
+
+#: inc/fields/why.php:160
+msgid "of organisations that reported a breach of an AI model or application had no AI access controls in place."
+msgstr ""
+
+#: inc/fields/why.php:165 inc/fields/why.php:166
+msgid "Where do you stand?"
+msgstr ""
+
+#: inc/fields/why.php:167
+msgid "Your organisation is probably ready for AI in some areas and not in others"
+msgstr ""
+
+#: inc/fields/why.php:170
+msgid "Paragraphs"
+msgstr ""
+
+#: inc/fields/why.php:171
+msgid "Paragraph"
+msgstr ""
+
+#: inc/fields/why.php:173
+msgid "The five root causes above are the five parts of readiness we assess. Most organisations are strong in one or two, and exposed in the rest."
+msgstr ""
+
+#: inc/fields/why.php:174
+msgid "A typical picture: the marketing team uses ChatGPT every day, so skills look fine. Customer data sits in six systems and a dozen spreadsheets that nobody owns. There is no AI policy, so nobody knows what staff are pasting into public tools. And the board has asked for \"an AI strategy\" twice. Strong in one or two areas, exposed in the rest. The chart shows that shape: five columns, five different heights."
+msgstr ""
+
+#: inc/fields/why.php:176
+msgid "Add paragraph"
+msgstr ""
+
+#: inc/fields/why.php:178
+msgid "Which of the five is your strongest today — and which one would a regulator or a customer find first?"
+msgstr ""
+
+#: inc/fields/why.php:181
+msgid "Chart label"
+msgstr ""
+
+#: inc/fields/why.php:181
+msgid "Your AI readiness"
+msgstr ""
+
+#: inc/fields/why.php:182
+msgid "Chart tag"
+msgstr ""
+
+#: inc/fields/why.php:183
+msgid "Legend: white bar"
+msgstr ""
+
+#: inc/fields/why.php:183
+msgid "Where you are"
+msgstr ""
+
+#: inc/fields/why.php:184
+msgid "Legend: red dashed space"
+msgstr ""
+
+#: inc/fields/why.php:185
+msgid "The same five root causes as above. The white bar is how far you have got in each; the red dashed space above it is the work still to do before AI can safely act at that level. Illustrative."
+msgstr ""
+
+#: inc/schema.php:172
+msgid "Inline HTML allowed (links, <strong>, <b>, <em>, <span>, <br>)."
+msgstr ""
+
+#: inc/schema.php:183
+msgid "A full URL, an anchor such as #close, or a page token: {home}, {why}, {approach}, {about}, {contact}, {privacy}, {assessment}, {thanks}, {score}, {cost}, {gap}, {discovery}, {howwework}. Tokens can be followed by an anchor, e.g. {contact}#contact."
+msgstr ""
+
+#: inc/schema.php:191
+msgid "Leave empty to use the original photo."
+msgstr ""
+
+#: inc/schema.php:222
+msgid "Add row"
+msgstr ""
+
+#: inc/schema.php:252
+msgid "Cypher-One Settings"
+msgstr ""
+
+#: inc/schema.php:253
+msgid "Cypher-One"
+msgstr ""
+
+#: inc/schema.php:315
+msgid "Wide image, around 1800 × 420. Leave empty to use the original Unsplash photo."
+msgstr ""
+
+#: inc/schema.php:347
+msgid "Where does the data for this process live?"
+msgstr ""
+
+#: inc/schema.php:349
+msgid "In one system, with an owner"
+msgstr ""
+
+#: inc/schema.php:349
+msgid "Data sits in one owned system."
+msgstr ""
+
+#: inc/schema.php:350
+msgid "In a few systems, many owners"
+msgstr ""
+
+#: inc/schema.php:350
+msgid "Data split across a few systems."
+msgstr ""
+
+#: inc/schema.php:351
+msgid "Spread across spreadsheets and email, no owner"
+msgstr ""
+
+#: inc/schema.php:351
+msgid "Data is scattered with no clear owner."
+msgstr ""
+
+#: inc/schema.php:355
+msgid "How often does this task happen?"
+msgstr ""
+
+#: inc/schema.php:357
+msgid "Daily, high volume"
+msgstr ""
+
+#: inc/schema.php:357
+msgid "High volume, so savings add up quickly."
+msgstr ""
+
+#: inc/schema.php:358
+msgid "Weekly"
+msgstr ""
+
+#: inc/schema.php:358
+msgid "Regular task, so savings are steady."
+msgstr ""
+
+#: inc/schema.php:359
+msgid "Occasionally"
+msgstr ""
+
+#: inc/schema.php:359
+msgid "Occasional task, so savings are small."
+msgstr ""
+
+#: inc/schema.php:363
+msgid "Can you check whether the AI got it right?"
+msgstr ""
+
+#: inc/schema.php:365
+msgid "Yes, against rules or records"
+msgstr ""
+
+#: inc/schema.php:365
+msgid "Results can be checked against rules or records."
+msgstr ""
+
+#: inc/schema.php:366
+msgid "Partly, informal expert judgement"
+msgstr ""
+
+#: inc/schema.php:366
+msgid "Results need expert review, so testing is harder."
+msgstr ""
+
+#: inc/schema.php:367
+msgid "No clear way"
+msgstr ""
+
+#: inc/schema.php:367
+msgid "No clear way to check results."
+msgstr ""
+
+#: inc/schema.php:371
+msgid "Who would own this AI?"
+msgstr ""
+
+#: inc/schema.php:373
+msgid "A named owner with budget"
+msgstr ""
+
+#: inc/schema.php:373
+msgid "A named owner with budget."
+msgstr ""
+
+#: inc/schema.php:374
+msgid "An interested team, no budget"
+msgstr ""
+
+#: inc/schema.php:374
+msgid "No funded owner yet."
+msgstr ""
+
+#: inc/schema.php:375
+msgid "Not decided"
+msgstr ""
+
+#: inc/schema.php:375
+msgid "No owner decided."
+msgstr ""
+
+#: inc/schema.php:379
+msgid "Does it involve personal or regulated data?"
+msgstr ""
+
+#: inc/schema.php:381 inc/schema.php:391
+msgid "No"
+msgstr ""
+
+#: inc/schema.php:381
+msgid "No personal or regulated data involved."
+msgstr ""
+
+#: inc/schema.php:382
+msgid "Yes, with clear policies"
+msgstr ""
+
+#: inc/schema.php:382
+msgid "Regulated data, but with clear policies."
+msgstr ""
+
+#: inc/schema.php:383
+msgid "Yes, rules unclear"
+msgstr ""
+
+#: inc/schema.php:383
+msgid "Regulated data without clear rules."
+msgstr ""
+
+#: inc/schema.php:387
+msgid "Are your executives and staff adequately trained for AI?"
+msgstr ""
+
+#: inc/schema.php:389
+msgid "Yes, leaders and teams have been trained"
+msgstr ""
+
+#: inc/schema.php:389
+msgid "Leaders and teams are ready to run it and question it."
+msgstr ""
+
+#: inc/schema.php:390
+msgid "Some, informally"
+msgstr ""
+
+#: inc/schema.php:390
+msgid "Training is patchy, so adoption will be uneven."
+msgstr ""
+
+#: inc/schema.php:391
+msgid "Nobody has been trained to run it or question it."
+msgstr ""
+
+#: inc/seo.php:69
+msgid "Cypher-One AI Readiness Assessment — find out how ready your organisation is to adopt AI, across strategy, leadership, people, data, technology, process, value and trust. Your AI readiness snapshot in about ten minutes."
+msgstr ""
+
+#: inc/setup-content.php:21 inc/template-functions.php:368 inc/template-functions.php:377
+msgid "Home"
+msgstr ""
+
+#: inc/setup-content.php:23 inc/template-functions.php:370 inc/template-functions.php:379
+msgid "Our Approach"
+msgstr ""
+
+#: inc/setup-content.php:24 inc/template-functions.php:371 inc/template-functions.php:380
+msgid "About"
+msgstr ""
+
+#: inc/setup-content.php:27
+msgid "Thank you"
+msgstr ""
+
+#: inc/setup-content.php:28
+msgid "AI Readiness Assessment"
+msgstr ""
+
+#: inc/setup-content.php:29
+msgid "Score one AI idea"
+msgstr ""
+
+#: inc/setup-content.php:44
+msgid "Cypher-One — AI delivers real returns when it is built on the right foundation"
+msgstr ""
+
+#: inc/setup-content.php:45
+msgid "Score one AI idea | Cypher-One"
+msgstr ""
+
+#: inc/setup-content.php:45
+msgid "Describe one AI idea and answer six questions to see an indicative likelihood of success, and what would hold it back."
+msgstr ""
+
+#: inc/setup-content.php:46
+msgid "What is waiting costing you? | Cypher-One"
+msgstr ""
+
+#: inc/setup-content.php:46
+msgid "A planning estimate of what manual work costs your team each month, and what the right AI foundation could reclaim."
+msgstr ""
+
+#: inc/setup-content.php:47
+msgid "The readiness gap | Cypher-One"
+msgstr ""
+
+#: inc/setup-content.php:47
+msgid "Why AI potential is growing faster than most organisations are ready for, and what closing the gap involves."
+msgstr ""
+
+#: inc/setup-content.php:48
+msgid "What the AI Adoption Review delivers | Cypher-One"
+msgstr ""
+
+#: inc/setup-content.php:48
+msgid "A comprehensive assessment for AI adoption that ends in a report your board can read and your team can act on."
+msgstr ""
+
+#: inc/setup-content.php:49
+msgid "How we work | Cypher-One"
+msgstr ""
+
+#: inc/setup-content.php:49
+msgid "We look at everything already in place, score every AI idea against the same six questions, and decide what makes sense, in order."
+msgstr ""
+
+#: inc/setup-content.php:61
+msgid "What this site collects"
+msgstr ""
+
+#: inc/setup-content.php:61
+msgid "Nothing automatically. This site sets no cookies, runs no analytics and uses no tracking pixels. If that changes, this page will say so first."
+msgstr ""
+
+#: inc/setup-content.php:62
+msgid "The assessment and the calculator"
+msgstr ""
+
+#: inc/setup-content.php:62
+msgid "The readiness assessment and the cost-of-waiting calculator run in your browser. Your answers and figures are not sent to us unless you choose to share the result with us at the end."
+msgstr ""
+
+#: inc/setup-content.php:63
+msgid "When you contact us"
+msgstr ""
+
+#: inc/setup-content.php:63
+msgid "If you email us or book a conversation, we keep your name, organisation and what you told us so that we can reply and prepare. We do not sell or share it, and we delete it on request."
+msgstr ""
+
+#: inc/setup-content.php:64
+msgid "Hosting and third parties"
+msgstr ""
+
+#: inc/setup-content.php:64
+msgid "Our hosting provider records standard server logs (IP address, pages requested, time) for security and reliability. Photographs are served from Unsplash. Neither receives anything you type here."
+msgstr ""
+
+#. translators: %s: email link.
+#: inc/setup-content.php:66
+msgid "Your rights"
+msgstr ""
+
+#: inc/setup-content.php:66
+#, php-format
+msgid "Under Qatar's Personal Data Privacy Protection Law (PDPPL) you can ask what we hold about you, ask us to correct it, or ask us to delete it. Write to %s."
+msgstr ""
+
+#: inc/setup-content.php:319 inc/setup-content.php:490 inc/setup-content.php:496 inc/setup.php:36
+msgid "Main navigation"
+msgstr ""
+
+#: inc/setup-content.php:320 inc/setup-content.php:490 inc/setup-content.php:497
+msgid "Footer: Pages"
+msgstr ""
+
+#: inc/setup-content.php:321 inc/setup-content.php:490 inc/setup-content.php:498
+msgid "Footer: Tools"
+msgstr ""
+
+#: inc/setup-content.php:322
+msgid "Footer: Legal"
+msgstr ""
+
+#: inc/setup-content.php:367 inc/setup-content.php:368 inc/setup-content.php:402
+msgid "Cypher-One setup"
+msgstr ""
+
+#: inc/setup-content.php:404
+msgid "Done. Pages, menus and content are in place."
+msgstr ""
+
+#. translators: %s: link to the plugin installer.
+#: inc/setup-content.php:411
+#, php-format
+msgid "Install and activate the free Secure Custom Fields plugin to edit the content. %s"
+msgstr ""
+
+#: inc/setup-content.php:412
+msgid "Find Secure Custom Fields"
+msgstr ""
+
+#: inc/setup-content.php:417
+msgid "The setup creates any missing pages (Home, Why AI fails, Our Approach, About, Contact, Privacy, Thank you, the AI Readiness Assessment, Score one idea, Cost of waiting, The readiness gap, AI Adoption Review and How we work), assigns their templates, sets the homepage and privacy page, builds the menus, and fills empty fields with the original content."
+msgstr ""
+
+#: inc/setup-content.php:424
+msgid "Edit"
+msgstr ""
+
+#: inc/setup-content.php:424
+msgid "View"
+msgstr ""
+
+#: inc/setup-content.php:426
+msgid "missing"
+msgstr ""
+
+#: inc/setup-content.php:433
+msgid "Run setup (keeps your edits)"
+msgstr ""
+
+#: inc/setup-content.php:434
+msgid "Replace all page content and settings with the original Cypher-One content?"
+msgstr ""
+
+#: inc/setup-content.php:434
+msgid "Reset content to the original"
+msgstr ""
+
+#: inc/setup-content.php:449
+msgid "The Cypher-One theme uses the free Secure Custom Fields plugin for its editable content. The site shows its original content until it is installed."
+msgstr ""
+
+#: inc/setup-content.php:451
+msgid "Install Secure Custom Fields"
+msgstr ""
+
+#: inc/setup-content.php:520
+msgid "Cypher-One: new website content is available."
+msgstr ""
+
+#: inc/setup-content.php:521
+msgid "This version adds the new Home page, Why AI fails, Our Approach, five new pages (Score one idea, Cost of waiting, The readiness gap, AI Adoption Review, How we work) and the new AI Readiness Assessment. Updating replaces the content of Home, Why AI fails and Our Approach, and rebuilds the theme menus. Other pages keep your edits."
+msgstr ""
+
+#: inc/setup-content.php:524
+msgid "Update content now"
+msgstr ""
+
+#: inc/setup.php:37
+msgid "Footer: Pages column"
+msgstr ""
+
+#: inc/setup.php:38
+msgid "Footer: Tools column"
+msgstr ""
+
+#: inc/setup.php:39
+msgid "Footer: Legal links"
+msgstr ""
+
+#: inc/template-functions.php:373
+msgid "AI Assessment"
+msgstr ""
+
+#: inc/template-functions.php:386
+msgid "Readiness assessment"
+msgstr ""
+
+#: inc/template-functions.php:387
+msgid "Score one idea"
+msgstr ""
+
+#: inc/template-functions.php:394
+msgid "Back to top"
+msgstr ""
+
+#: inc/template-functions.php:576
+msgid "one"
+msgstr ""
+
+#: inc/template-functions.php:577
+msgid "two"
+msgstr ""
+
+#: inc/template-functions.php:578
+msgid "three"
+msgstr ""
+
+#: inc/template-functions.php:579
+msgid "four"
+msgstr ""
+
+#: inc/template-functions.php:580
+msgid "five"
+msgstr ""
+
+#: inc/template-functions.php:581
+msgid "six"
+msgstr ""
+
+#: inc/template-functions.php:582
+msgid "seven"
+msgstr ""
+
+#: inc/template-functions.php:583
+msgid "eight"
+msgstr ""
+
+#: inc/template-functions.php:584
+msgid "nine"
+msgstr ""
+
+#: inc/template-functions.php:585
+msgid "ten"
+msgstr ""
+
+#. translators: %s: search query.
+#: index.php:19
+#, php-format
+msgid "Search results for “%s”"
+msgstr ""
+
+#: index.php:23
+msgid "Latest updates"
+msgstr ""
+
+#: index.php:46
+msgid "Previous"
+msgstr ""
+
+#: index.php:47
+msgid "Next"
+msgstr ""
+
+#: index.php:52
+msgid "Nothing has been published here yet."
+msgstr ""
+
+#: page-templates/about.php:16 page-templates/contact.php:23 page-templates/legal.php:20
+msgid "Page introduction"
+msgstr ""
+
+#: page-templates/assessment.php:24
+msgid "Back to the Cypher-One website"
+msgstr ""
+
+#: page-templates/contact.php:29
+msgid "Thank you. We have it, and will reply within one business day."
+msgstr ""
+
+#. translators: %s: email address.
+#: page-templates/contact.php:34
+#, php-format
+msgid "Sorry, your message could not be sent. Please email us at %s."
+msgstr ""
+
+#: page-templates/contact.php:43
+msgid "Leave this empty:"
+msgstr ""
+
+#. translators: %s: percentage figure.
+#: page-templates/why-ai-stalls.php:45 page-templates/why-ai-stalls.php:47
+#, php-format
+msgid "~%s%%"
+msgstr ""
+
+#. translators: %s: percentage figure.
+#: page-templates/why-ai-stalls.php:52 page-templates/why-ai-stalls.php:145
+#, php-format
+msgid "%s%%"
+msgstr ""
+
+#: page-templates/why-ai-stalls.php:107
+msgid "AI risk timeline stages"
+msgstr ""
+
+#. translators: 1: stage number, 2: number of stages.
+#: page-templates/why-ai-stalls.php:118
+#, php-format
+msgid "Stage %1$s of %2$s"
+msgstr ""
+
+#: page-templates/why-ai-stalls.php:121
+msgid "Risk surface"
+msgstr ""
+
+#. translators: 1: level, 2: number of levels.
+#: page-templates/why-ai-stalls.php:124
+#, php-format
+msgid "Risk surface at level %1$d of %2$d."
+msgstr ""
+
+#. translators: %s: comma-separated list of step names.
+#: template-parts/charts/cycle.php:20
+#, php-format
+msgid "Steps in a cycle, %s, around an ongoing assurance service"
+msgstr ""
+
+#: template-parts/charts/gap-chart.php:11
+msgid "Chart: AI potential against organisational readiness"
+msgstr ""
+
+#: template-parts/charts/gap-chart.php:12
+msgid "Across four stages, tools, automation, agents and autonomy, the AI potential line rises steeply while the organisational readiness line rises slowly. The shaded area between them is the opportunity gap."
+msgstr ""
+
+#: template-parts/charts/gap-chart.php:21
+msgid "AI potential"
+msgstr ""
+
+#: template-parts/charts/gap-chart.php:22
+msgctxt "chart label, line 1 of \"Organisational readiness\""
+msgid "Organisational"
+msgstr ""
+
+#: template-parts/charts/gap-chart.php:23
+msgctxt "chart label, line 2 of \"Organisational readiness\""
+msgid "readiness"
+msgstr ""
+
+#: template-parts/charts/gap-chart.php:24
+msgid "Opportunity gap"
+msgstr ""
+
+#: template-parts/charts/gap-chart.php:25
+msgid "risk on one side, return on the other"
+msgstr ""
+
+#: template-parts/charts/readiness-chart.php:11
+msgid "Diagram: organisational readiness against what AI potential now demands, in five parts"
+msgstr ""
+
+#: template-parts/charts/readiness-chart.php:12
+msgid "Five columns, strategy and direction, data and technology foundation, governance and risk management, processes and operating model, and people, skills and change, show how far an organisation's readiness reaches. A red line near the top marks what current AI potential demands. The red dashed space above each column is the readiness gap."
+msgstr ""
+
+#: template-parts/charts/readiness-chart.php:17
+msgid "AI POTENTIAL"
+msgstr ""
+
+#: template-parts/charts/readiness-chart.php:20
+msgctxt "chart label, line 1"
+msgid "Strategy and"
+msgstr ""
+
+#: template-parts/charts/readiness-chart.php:20
+msgctxt "chart label, line 2"
+msgid "direction"
+msgstr ""
+
+#: template-parts/charts/readiness-chart.php:20
+msgctxt "chart label, line 1"
+msgid "Data and"
+msgstr ""
+
+#: template-parts/charts/readiness-chart.php:20
+msgctxt "chart label, line 2"
+msgid "technology"
+msgstr ""
+
+#: template-parts/charts/readiness-chart.php:20
+msgctxt "chart label, line 1"
+msgid "Governance"
+msgstr ""
+
+#: template-parts/charts/readiness-chart.php:20
+msgctxt "chart label, line 2"
+msgid "and risk"
+msgstr ""
+
+#: template-parts/charts/readiness-chart.php:20
+msgctxt "chart label, line 1"
+msgid "Processes and"
+msgstr ""
+
+#: template-parts/charts/readiness-chart.php:20
+msgctxt "chart label, line 2"
+msgid "operating model"
+msgstr ""
+
+#: template-parts/charts/readiness-chart.php:20
+msgctxt "chart label, line 1"
+msgid "People, skills"
+msgstr ""
+
+#: template-parts/charts/readiness-chart.php:20
+msgctxt "chart label, line 2"
+msgid "and change"
+msgstr ""
+
+#. translators: %s: number of questions.
+#: template-parts/home/assess.php:45
+#, php-format
+msgid "Answer the %s question to see your score."
+msgid_plural "Answer the %s questions to see your score."
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: %s: maximum team size.
+#: template-parts/home/calculator.php:38
+#, php-format
+msgid "0 to %s people"
+msgstr ""
+
+#. translators: %s: maximum hours per week.
+#: template-parts/home/calculator.php:49
+#, php-format
+msgid "0 to %s hours a week"
+msgstr ""
+
+#. translators: 1: currency code, 2: maximum monthly cost.
+#: template-parts/home/calculator.php:59
+#, php-format
+msgid "%1$s 0 to %2$s a month"
+msgstr ""
+

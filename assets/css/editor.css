@@ -1,18 +1,4 @@
-/* Block editor adjustments — tokens come from variables.css. */
-body {
-	background: var(--bg-page);
-	color: var(--text-body);
-	font-family: var(--font-body);
-	font-size: var(--text-base);
-	line-height: var(--leading-body);
-}
-
-.editor-styles-wrapper :is(h1, h2, h3, h4, h5, h6) {
-	color: var(--text-primary);
-	font-family: var(--font-display);
-	line-height: var(--leading-tight);
-}
-
-.editor-styles-wrapper a {
-	color: var(--text-link);
-}
+/* Block editor: match the front-end type for legal / text pages. */
+body{font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;color:#201e1d;line-height:1.6}
+h1,h2,h3,h4{font-weight:800;letter-spacing:-.025em;line-height:1.1}
+a{color:#ae1800}

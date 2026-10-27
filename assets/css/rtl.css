@@ -1,0 +1,31 @@
+/**
+ * Right-to-left adjustments (loaded automatically for RTL languages such as Arabic).
+ * Flexbox and grid layouts mirror on their own; these rules cover the rest.
+ */
+body{direction:rtl;unicode-bidi:embed}
+.skip{left:auto;right:-999px}
+.skip:focus{left:auto;right:8px}
+.entry-content ul,.entry-content ol{padding-left:0;padding-right:1.25em}
+.cf-notice{border-left:0;border-right:4px solid var(--accent)}
+h1,h2,h3,h4,.eyebrow,.logo,.mwordmark{letter-spacing:0}
+.eyebrow,.logo small,.subhead,.route,.label{text-transform:none}
+.head-row .lede,.rt-tab,.opt,.founders.full .f{text-align:right}
+.rt-tab{border-right:0;border-left:1px solid var(--line)}
+.ask{border-left:0;border-right:4px solid var(--accent);padding:6px 16px 6px 0}
+.contact-meta{border-left:0;padding-left:0;border-right:2px solid var(--band-line);padding-right:24px}
+.result ul,.blockindex ol{padding-left:0;padding-right:18px}
+.src-tag{margin-left:0;margin-right:8px}
+.total small{margin-left:0;margin-right:6px}
+.viz-big small{margin-left:0;margin-right:8px}
+.menu-toggle{margin-left:0;margin-right:auto}
+.did{left:auto;right:0}
+.range-field input[type=range]{direction:rtl}
+/* website-new components */
+.h3-thoughts li{border-left:0;border-right:3px solid var(--accent)}
+.rc-fix,.pl-get{padding-left:0;border-left:0;padding-right:24px;border-right:3px solid var(--accent)}
+.wf-fig .k2{margin-left:0;margin-right:8px}
+.ln-pillars b::after,.ln-card .ln-go::after,.ln-more::after{content:" \2190"}
+@media (max-width:900px){.rc-fix{padding-right:16px}}
+.as-cols ul{padding-left:0;padding-right:18px}
+.dash-n{border-left:0;border-right:3px solid var(--accent)}
+@media (max-width:900px){.pl-get{padding-right:16px}}

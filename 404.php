@@ -1,34 +1,23 @@
 <?php
 /**
- * 404 template.
+ * 404 page.
  *
- * @package co
+ * @package Cypher_One
  */
 
 defined( 'ABSPATH' ) || exit;
 
 get_header();
 ?>
-
-<section class="section">
-	<div class="container container--narrow">
-		<span class="section__eyebrow">404</span>
-		<h1><?php esc_html_e( 'This page has wandered off', 'co' ); ?></h1>
-		<p><?php esc_html_e( 'The address may have changed, or the page no longer exists. Search below or head back home.', 'co' ); ?></p>
-		<?php get_search_form(); ?>
-		<p>
-			<?php
-			co_component(
-				'button',
-				array(
-					'label' => __( 'Back to home', 'co' ),
-					'url'   => home_url( '/' ),
-				)
-			);
-			?>
-		</p>
-	</div>
+<div class="page is-active" id="page-404">
+<section class="band pageintro t-dark c1-message" aria-labelledby="nf-title">
+  <div class="wrap">
+    <p class="eyebrow">404</p>
+    <h1 id="nf-title" style="margin-top:12px;font-size:clamp(2.2rem,5vw,3.8rem)"><?php echo esc_html( c1_opt( 'notfound_title' ) ); ?></h1>
+    <p class="lede" style="margin-top:16px"><?php echo esc_html( c1_opt( 'notfound_text' ) ); ?></p>
+    <p style="margin-top:24px"><a class="btn btn-primary" href="<?php echo esc_url( home_url( '/' ) ); ?>"><?php echo esc_html( c1_opt( 'notfound_link' ) ); ?></a></p>
+  </div>
 </section>
-
+</div>
 <?php
 get_footer();
