@@ -761,12 +761,12 @@ function snapshotHTML(){
 }
 function thanksHTML(){
   return '<div class="thanks"><h3 style="font-size:24px;font-weight:900;color:var(--ink)">Thank you'+(S.cName?', '+esc(S.cName.split(" ")[0]):'')+'.</h3>'
-    +'<p style="font-size:15.5px;color:#3F3D3B;line-height:1.55;margin:0">We’ve received your request and your results. A member of the Cypher-One team will be in touch shortly to set up your session.</p></div>';
+    +'<p style="font-size:15.5px;color:#3F3D3B;line-height:1.55;margin:0">We’ve emailed your personalised <b>AI Readiness Report (PDF)</b> to <b>'+esc(S.cEmail)+'</b>. A member of the Cypher-One team will be in touch shortly to set up your session.</p></div>';
 }
 function formHTML(){
   var rad=WANTS.map(function(o,i){ return '<label><input type="radio" name="want"'+(S.cWant===i?' checked':'')+' onchange="setC(\'cWant\','+i+')">'+o+'</label>'; }).join('');
   var opts='<option value="">Select the sector you operate in</option>'+SECTORS.map(function(s){ return '<option'+(S.cSector===s?' selected':'')+'>'+esc(s)+'</option>'; }).join('');
-  return '<div class="frm"><h3>Let’s dive deeper.</h3><p class="lead">Tell us what would help most and we’ll be in touch to set up a session.</p>'
+  return '<div class="frm"><h3>Let’s dive deeper.</h3><p class="lead">Tell us what would help most. We will email your full <b>AI Readiness Report (PDF)</b> and set up a session with our team.</p>'
     +'<div class="fq">What would you like from us?</div><div class="rad">'+rad+'</div>'
     +'<div class="fg">'
     +'<div><label class="fl" for="cName">Your name</label><input id="cName" type="text" value="'+esc(S.cName)+'" oninput="setC(\'cName\',this.value)"></div>'
@@ -777,7 +777,7 @@ function formHTML(){
     +'<div class="full"><label class="fl" for="cMsg">In your own words</label><textarea id="cMsg" placeholder="What is the problem, the idea, or the question you want answered?" oninput="setC(\'cMsg\',this.value)">'+esc(S.cMsg)+'</textarea></div>'
     +'</div>'
     +'<input type="text" id="cHp" name="website" tabindex="-1" autocomplete="off" aria-hidden="true" style="position:absolute;left:-9999px;width:1px;height:1px;opacity:0">'
-    +'<div style="display:flex;align-items:center;gap:16px;flex-wrap:wrap;margin-top:18px"><button id="sendBtn" class="sbtn" onclick="sendSnapshot()">Send</button>'
+    +'<div style="display:flex;align-items:center;gap:16px;flex-wrap:wrap;margin-top:18px"><button id="sendBtn" class="sbtn" onclick="sendSnapshot()">Send &amp; receive report (PDF)</button>'
     +'<span class="pe">Prefer email? <a href="mailto:'+c1aEmail()+'">'+c1aEmail()+'</a></span></div>'
     +(S.sendErr?'<div class="ferr">'+esc(S.sendErr)+'</div>':'')+'</div>';
 }
@@ -820,7 +820,7 @@ function fullReportText(R){
 function sendSnapshot(){
   var ok = S.cName.trim() && /^[^@\s]+@[^@\s]+\.[^@\s]+$/.test(S.cEmail.trim());
   if(!ok){ S.sendErr="Please add your name and a valid work email."; save(); render(); return; }
-  var viaWP = !!ENDPOINT && !C1A.web3formsKey;
+  var viaWP = !!ENDPOINT;
   if(!viaWP && (!WEB3FORMS_KEY || WEB3FORMS_KEY.indexOf("PASTE-")===0)){ S.sendErr="Sending isn’t set up yet. Please email us at "+(C1A.email||"contact@cypher-one.ai")+"."; save(); render(); return; }
   var R=compute(), btn=document.getElementById("sendBtn"); if(btn){ btn.disabled=true; btn.textContent="Sending…"; }
   var payload={ access_key:(viaWP?undefined:WEB3FORMS_KEY), assessment_id:AID, website:(document.getElementById("cHp")||{}).value||"",
@@ -860,7 +860,7 @@ function ctaHTML(R,inReport){
 }
 function submitEmail(){
   if(!S.email || S.email.indexOf("@")<0){ var e=document.getElementById("emailErr"); if(e) e.style.display="block"; return; }
-  S.submitted=true; save(); post("/leads",{ assessment_id:AID, email:S.email, wants_report:true }); render();
+  S.submitted=true; save(); post("/leads",{ assessment_id:AID, email:S.email, wants_report:true, data_json:JSON.stringify({ app:"c1-ai-readiness", version:VERSION, aid:AID, submitted:new Date().toISOString(), state:S }) }); render();
 }
 
 /* ============================ report ============================ */
