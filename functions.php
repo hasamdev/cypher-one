@@ -7,8 +7,8 @@
 
 defined( 'ABSPATH' ) || exit;
 
-define( 'C1_VERSION', '1.1.0' );
-define( 'C1_CONTENT_VERSION', '1.1' );
+define( 'C1_VERSION', '1.2.0' );
+define( 'C1_CONTENT_VERSION', '1.2.1' );
 define( 'C1_DIR', get_template_directory() );
 define( 'C1_URI', get_template_directory_uri() );
 

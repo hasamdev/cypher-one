@@ -1,6 +1,6 @@
 <?php
 /**
- * Home: short readiness-gap section with the chart.
+ * Home: short readiness-gap section with the dark chart.
  *
  * @package Cypher_One
  */
@@ -14,10 +14,12 @@ defined( 'ABSPATH' ) || exit;
         <p class="eyebrow"><?php c1_e( 'gap_eyebrow' ); ?></p>
         <h2 id="gap-title" style="margin-top:12px"><?php c1_h( 'gap_title' ); ?></h2>
         <p class="lede" style="margin-top:14px"><?php c1_e( 'gap_lede' ); ?></p>
+        <?php if ( c1_f( 'gap_btn_label' ) || c1_f( 'gap_more_label' ) ) : ?>
         <div class="ln-actions"><?php c1_button( 'gap_btn_label', 'gap_btn_link' ); ?><?php c1_button( 'gap_more_label', 'gap_more_link', 'ln-more' ); ?></div>
+        <?php endif; ?>
       </div>
-      <div><figure class="gap-chart">
-        <?php get_template_part( 'template-parts/charts/gap-chart' ); ?>
+      <div><figure class="gap-chart gap-dark">
+        <?php get_template_part( 'template-parts/charts/gap-chart', null, array( 'variant' => 'dark' ) ); ?>
         <?php if ( c1_f( 'gap_caption' ) ) : ?><figcaption class="caption"><?php c1_e( 'gap_caption' ); ?></figcaption><?php endif; ?>
       </figure></div>
     </div>

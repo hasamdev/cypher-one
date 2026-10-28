@@ -44,13 +44,13 @@ $c1_cause = function ( $anchor, $area, $title, $text, $stat, $src, $year, $url, 
 
 return array(
 	'why' => array(
-		'title'          => __( '“Why AI fails” page content', 'cypher-one' ),
+		'title'          => __( '“Why AI stalls” page content', 'cypher-one' ),
 		'location'       => c1_loc_template( 'page-templates/why-ai-stalls.php' ),
 		'hide_on_screen' => array( 'the_content' ),
 		'fields'         => array(
 			/* ---------------------------------------------------------------- Hero */
 			c1_tab( __( 'Hero', 'cypher-one' ) ),
-			c1_fld( 'wf_eyebrow', 'text', __( 'Eyebrow', 'cypher-one' ), __( 'Why AI fails', 'cypher-one' ) ),
+			c1_fld( 'wf_eyebrow', 'text', __( 'Eyebrow', 'cypher-one' ), __( 'Why AI stalls', 'cypher-one' ) ),
 			c1_fld( 'wf_title', 'html', __( 'Heading', 'cypher-one' ), __( '95% of organisations see no return from generative AI. <span>It is rarely the technology.</span>', 'cypher-one' ) ),
 			c1_fld( 'wf_lede', 'textarea', __( 'Introduction', 'cypher-one' ), __( 'Across the research, the same five root causes come up again and again. None of them is the model. Each is something a leadership team can fix, and each is something we fix with you.', 'cypher-one' ) ),
 			c1_rep(
@@ -105,7 +105,7 @@ return array(
 					c1_fld( 'link', 'link', __( 'Link', 'cypher-one' ), '', array( 'wrapper' => array( 'width' => 50 ) ) ),
 				),
 				array(
-					$c1_cause( 'cause-strategy', __( '1 · Strategy and direction', 'cypher-one' ), __( 'Nobody measures the value', 'cypher-one' ), __( 'AI is started because it is expected, not tied to a goal. With no baseline there is no proof, so the funding stops.', 'cypher-one' ), __( 'Only 37% of organisations attribute any EBIT impact to their AI use.', 'cypher-one' ), 'McKinsey', '2026', $c1_mck, 37, __( 'We tie every AI idea to a business goal and a baseline before anything is built, using our use-case scorecard.', 'cypher-one' ), __( 'Score an idea', 'cypher-one' ), '{score}' ),
+					$c1_cause( 'cause-strategy', __( '1 · Strategy and direction', 'cypher-one' ), __( 'Nobody measures the value', 'cypher-one' ), __( 'AI is started because it is expected, not tied to a goal. With no baseline there is no proof, so the funding stops.', 'cypher-one' ), __( 'Only 37% of organisations attribute any EBIT impact to their AI use.', 'cypher-one' ), 'McKinsey', '2026', $c1_mck, 37, __( 'We tie every AI idea to a business goal and a baseline before anything is built, using our use-case scorecard.', 'cypher-one' ), __( 'Score an idea', 'cypher-one' ), '{home}#assess' ),
 					$c1_cause( 'cause-data', __( '2 · Data and technology', 'cypher-one' ), __( 'Your data isn’t ready', 'cypher-one' ), __( 'Scattered, duplicated, and nobody owns it. The pilot works on clean data the real business does not have.', 'cypher-one' ), __( '60% of AI projects without AI-ready data are expected to be abandoned through 2026.', 'cypher-one' ), 'Gartner', '2025', 'https://www.gartner.com/en/newsroom/press-releases/2025-02-26-lack-of-ai-ready-data-puts-ai-projects-at-risk', 60, __( 'We map where your data sits, who owns it and whether it can be trusted, then fix what the first use case needs.', 'cypher-one' ), __( 'How the AI Adoption Review works', 'cypher-one' ), '{discovery}' ),
 					$c1_cause( 'cause-governance', __( '3 · Governance and risk', 'cypher-one' ), __( 'Nobody owns the risk', 'cypher-one' ), __( 'AI spreads informally. Nobody is accountable, and leadership hears about it last.', 'cypher-one' ), __( '52% of department-level AI initiatives run with no formal approval or oversight.', 'cypher-one' ), 'EY', '2026', 'https://www.ey.com/en_us/newsroom/2026/03/ey-survey-autonomous-ai-adoption-surges-at-tech-companies-as-oversight-falls-behind', 52, __( 'We find every AI tool in use, name an owner for each, and build approvals and limits into the systems, not into a policy document.', 'cypher-one' ), __( 'How we govern', 'cypher-one' ), '{approach}#govern-title' ),
 					$c1_cause( 'cause-workflow', __( '4 · Processes and operating model', 'cypher-one' ), __( 'It doesn’t fit how people work', 'cypher-one' ), __( 'The tool sits beside the process, not inside it. People drift back to the old way.', 'cypher-one' ), __( 'About three-quarters of AI high performers redesigned their workflows, against about a quarter of other companies.', 'cypher-one' ), 'McKinsey', '2026', $c1_mck, 75, __( 'We redesign the process around the AI with the people who do the work, so it becomes how work gets done.', 'cypher-one' ), __( 'How we work', 'cypher-one' ), '{howwework}', 'compare', 25, __( 'Leaders', 'cypher-one' ), __( 'Others', 'cypher-one' ) ),

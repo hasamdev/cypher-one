@@ -79,7 +79,7 @@ return array(
 			c1_fld( 'assess_web3forms_key', 'text', __( 'Web3Forms access key (optional)', 'cypher-one' ), '', array( 'instructions' => __( 'Only if you prefer Web3Forms: paste a key here and requests go to Web3Forms instead of WordPress.', 'cypher-one' ) ) ),
 
 			c1_tab( __( 'SEO & sharing', 'cypher-one' ) ),
-			c1_fld( 'seo_description', 'textarea', __( 'Default meta description', 'cypher-one' ), __( 'AI is moving from a tool your people use to systems that act for you. Cypher-One helps leaders in Qatar and the GCC find where AI pays, build the data and governance it depends on, and keep it safe after go-live. Take the AI readiness assessment.', 'cypher-one' ), array( 'instructions' => __( 'Skipped automatically when an SEO plugin (Yoast, Rank Math, SEOPress, AIOSEO) is active.', 'cypher-one' ) ) ),
+			c1_fld( 'seo_description', 'textarea', __( 'Default meta description', 'cypher-one' ), __( 'UNDERSTAND · PROTECT · GOVERN · ACCELERATE. Built around people, process and technology for Qatar and the GCC.', 'cypher-one' ), array( 'instructions' => __( 'Skipped automatically when an SEO plugin (Yoast, Rank Math, SEOPress, AIOSEO) is active.', 'cypher-one' ) ) ),
 			c1_fld( 'seo_image', 'image', __( 'Default sharing image (1200 × 630)', 'cypher-one' ), 'assets/img/og-image.png' ),
 			c1_fld( 'seo_image_alt', 'text', __( 'Sharing image alt text', 'cypher-one' ), __( 'Cypher-One: AI delivers real returns when it is built on the right foundation', 'cypher-one' ) ),
 			c1_fld( 'org_alt_name', 'text', __( 'Organisation alternate name (structured data)', 'cypher-one' ), 'cypher•one' ),

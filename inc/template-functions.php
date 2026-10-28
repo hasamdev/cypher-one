@@ -366,7 +366,7 @@ function c1_default_menu( $location ) {
 		case 'primary':
 			return array(
 				array( 'title' => __( 'Home', 'cypher-one' ), 'url' => c1_page_url( 'home' ) ),
-				array( 'title' => __( 'Why AI fails', 'cypher-one' ), 'url' => c1_page_url( 'why' ) ),
+				array( 'title' => __( 'Why AI stalls', 'cypher-one' ), 'url' => c1_page_url( 'why' ) ),
 				array( 'title' => __( 'Our Approach', 'cypher-one' ), 'url' => c1_page_url( 'approach' ) ),
 				array( 'title' => __( 'About', 'cypher-one' ), 'url' => c1_page_url( 'about' ) ),
 				array( 'title' => __( 'Contact', 'cypher-one' ), 'url' => c1_page_url( 'contact' ) ),
@@ -375,7 +375,7 @@ function c1_default_menu( $location ) {
 		case 'footer_pages':
 			return array(
 				array( 'title' => __( 'Home', 'cypher-one' ), 'url' => c1_page_url( 'home' ) ),
-				array( 'title' => __( 'Why AI fails', 'cypher-one' ), 'url' => c1_page_url( 'why' ) ),
+				array( 'title' => __( 'Why AI stalls', 'cypher-one' ), 'url' => c1_page_url( 'why' ) ),
 				array( 'title' => __( 'Our Approach', 'cypher-one' ), 'url' => c1_page_url( 'approach' ) ),
 				array( 'title' => __( 'About', 'cypher-one' ), 'url' => c1_page_url( 'about' ) ),
 				array( 'title' => __( 'Contact', 'cypher-one' ), 'url' => c1_page_url( 'contact' ) ),
@@ -384,8 +384,8 @@ function c1_default_menu( $location ) {
 		case 'footer_tools':
 			return array(
 				array_merge( $assess, array( 'title' => __( 'Readiness assessment', 'cypher-one' ) ) ),
-				array( 'title' => __( 'Score one idea', 'cypher-one' ), 'url' => c1_page_url( 'score' ) ),
-				array( 'title' => __( 'Cost of waiting', 'cypher-one' ), 'url' => c1_page_url( 'cost' ) ),
+				array( 'title' => __( 'Score one idea', 'cypher-one' ), 'url' => home_url( '/#assess' ) ),
+				array( 'title' => __( 'Cost of waiting', 'cypher-one' ), 'url' => home_url( '/#calculator' ) ),
 				array( 'title' => __( 'AI Adoption Review', 'cypher-one' ), 'url' => c1_page_url( 'discovery' ) ),
 			);
 		case 'footer_legal':

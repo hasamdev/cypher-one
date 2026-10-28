@@ -346,12 +346,12 @@ function c1_sec_close( $o = array() ) {
 		array(
 			c1_tab( __( 'Talk to us', 'cypher-one' ) ),
 			c1_fld( 'close_eyebrow', 'text', __( 'Eyebrow', 'cypher-one' ), __( 'Talk to us', 'cypher-one' ) ),
-			c1_fld( 'close_title', 'html', __( 'Heading', 'cypher-one' ), __( 'Thirty minutes with the people who will do the work', 'cypher-one' ) ),
-			c1_fld( 'close_lede', 'textarea', __( 'Introduction', 'cypher-one' ), __( 'Tell us what you want AI to achieve. We will tell you plainly where we think the value is, what it would take to get there, and whether we are the right people to help.', 'cypher-one' ) ),
-			c1_fld( 'close_ask', 'text', __( 'Question', 'cypher-one' ), __( 'What would you want to know by the end of those thirty minutes?', 'cypher-one' ) ),
+			c1_fld( 'close_title', 'html', __( 'Heading', 'cypher-one' ), __( 'Thirty minutes to discuss your needs', 'cypher-one' ) ),
+			c1_fld( 'close_lede', 'textarea', __( 'Introduction', 'cypher-one' ), __( 'Tell us what you want AI to achieve. We will tell you where we see the value, what it would take, and how we can help.', 'cypher-one' ) ),
+			c1_fld( 'close_ask', 'text', __( 'Question', 'cypher-one' ), '' ),
 			c1_fld( 'close_btn1_label', 'text', __( 'Primary button label', 'cypher-one' ), __( 'Tell us what you need', 'cypher-one' ), array( 'wrapper' => array( 'width' => 50 ) ) ),
 			c1_fld( 'close_btn1_link', 'link', __( 'Primary button link', 'cypher-one' ), '{contact}#contact', array( 'wrapper' => array( 'width' => 50 ) ) ),
-			c1_fld( 'close_btn2_label', 'text', __( 'Secondary button label', 'cypher-one' ), __( 'Or take the assessment first', 'cypher-one' ), array( 'wrapper' => array( 'width' => 50 ) ) ),
+			c1_fld( 'close_btn2_label', 'text', __( 'Secondary button label', 'cypher-one' ), '', array( 'wrapper' => array( 'width' => 50 ) ) ),
 			c1_fld( 'close_btn2_link', 'link', __( 'Secondary button link', 'cypher-one' ), '{assessment}', array( 'wrapper' => array( 'width' => 50 ) ) ),
 		),
 		$o

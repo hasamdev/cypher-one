@@ -1,6 +1,6 @@
 <?php
 /**
- * Home: hero with leadership quotes and the "lots of AI, little of it checked" illustration.
+ * Home: hero with tagline, subtitle, lede and the readiness-check illustration.
  *
  * @package Cypher_One
  */
@@ -20,6 +20,9 @@ $c1_thoughts = (array) c1_f( 'hero_thoughts' );
     <div class="h3-grid">
       <div class="h3-copy">
         <h1 class="mh1 h3-h1" id="hero-title"><?php c1_h( 'hero_title' ); ?></h1>
+        <?php if ( c1_f( 'hero_intel' ) ) : ?><p class="mintel"><?php c1_e( 'hero_intel' ); ?></p><?php endif; ?>
+        <?php if ( c1_f( 'hero_sub' ) ) : ?><p class="h3-sub"><?php c1_e( 'hero_sub' ); ?></p><?php endif; ?>
+        <?php if ( c1_f( 'hero_lede' ) ) : ?><p class="msub"><?php c1_e( 'hero_lede' ); ?></p><?php endif; ?>
         <?php if ( $c1_thoughts ) : ?>
         <ul class="h3-thoughts" aria-label="<?php echo esc_attr( c1_f( 'hero_thoughts_label' ) ); ?>">
           <?php foreach ( $c1_thoughts as $c1_row ) : ?>
@@ -27,7 +30,7 @@ $c1_thoughts = (array) c1_f( 'hero_thoughts' );
           <?php endforeach; ?>
         </ul>
         <?php endif; ?>
-        <div class="row" style="margin-top:26px">
+        <div class="row" style="margin-top:22px">
           <?php c1_button( 'hero_btn_label', 'hero_btn_link' ); ?>
         </div>
       </div>

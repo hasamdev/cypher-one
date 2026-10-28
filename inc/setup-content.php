@@ -19,7 +19,7 @@ defined( 'ABSPATH' ) || exit;
 function c1_setup_pages() {
 	return array(
 		'home'       => array( __( 'Home', 'cypher-one' ), 'home', '', 'home' ),
-		'why'        => array( __( 'Why AI fails', 'cypher-one' ), 'why-ai-stalls', 'page-templates/why-ai-stalls.php', 'why' ),
+		'why'        => array( __( 'Why AI stalls', 'cypher-one' ), 'why-ai-stalls', 'page-templates/why-ai-stalls.php', 'why' ),
 		'approach'   => array( __( 'Our Approach', 'cypher-one' ), 'our-approach', 'page-templates/our-approach.php', 'approach' ),
 		'about'      => array( __( 'About', 'cypher-one' ), 'about', 'page-templates/about.php', 'about' ),
 		'contact'    => array( __( 'Contact', 'cypher-one' ), 'contact', 'page-templates/contact.php', 'contact' ),
@@ -460,11 +460,18 @@ add_action( 'admin_notices', 'c1_scf_notice' );
  */
 function c1_upgrade_content() {
 	$pages = c1_run_setup( false );
+	$seo   = c1_setup_seo();
 	if ( c1_scf_active() ) {
-		foreach ( array( 'home', 'why', 'approach' ) as $key ) {
+		foreach ( array( 'home', 'why', 'approach', 'gap', 'discovery', 'howwework' ) as $key ) {
 			if ( ! empty( $pages[ $key ] ) ) {
 				$def = c1_setup_pages();
 				c1_setup_seed( $def[ $key ][3], $pages[ $key ], true );
+				if ( ! empty( $seo[ $key ][0] ) ) {
+					update_field( c1_key( 'seo', 'seo_title' ), $seo[ $key ][0], $pages[ $key ] );
+				}
+				if ( ! empty( $seo[ $key ][1] ) ) {
+					update_field( c1_key( 'seo', 'seo_description' ), $seo[ $key ][1], $pages[ $key ] );
+				}
 			}
 		}
 		$groups = c1_groups();
@@ -482,7 +489,7 @@ function c1_upgrade_content() {
 		wp_update_post(
 			array(
 				'ID'         => $pages['why'],
-				'post_title' => __( 'Why AI fails', 'cypher-one' ),
+				'post_title' => __( 'Why AI stalls', 'cypher-one' ),
 			)
 		);
 	}
@@ -497,7 +504,20 @@ function c1_upgrade_content() {
 	c1_setup_menu( 'footer_pages', __( 'Footer: Pages', 'cypher-one' ), $pages );
 	c1_setup_menu( 'footer_tools', __( 'Footer: Tools', 'cypher-one' ), $pages );
 	update_option( 'c1_content_version', C1_CONTENT_VERSION );
+	if ( function_exists( 'sg_cachepress_purge_cache' ) ) {
+		sg_cachepress_purge_cache();
+	}
 }
+
+/**
+ * Automatically run the content upgrade once when a new content version is deployed.
+ */
+function c1_maybe_auto_upgrade() {
+	if ( c1_needs_upgrade() ) {
+		c1_upgrade_content();
+	}
+}
+add_action( 'init', 'c1_maybe_auto_upgrade', 20 );
 
 /**
  * Whether this site was set up with older content.

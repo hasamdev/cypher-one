@@ -9,8 +9,8 @@
 defined( 'ABSPATH' ) || exit;
 
 $c1_questions = (array) c1_f( 'ga_questions' );
+$c1_lean      = isset( $args['variant'] ) && 'lean' === $args['variant'];
 ?>
-<?php $c1_lean = isset( $args['variant'] ) && 'lean' === $args['variant']; ?>
 <section class="<?php echo esc_attr( isset( $args['class'] ) ? $args['class'] : 't-light' ); ?>" id="assess" aria-labelledby="ga-title">
   <div class="wrap">
     <div class="head-row">
@@ -23,8 +23,10 @@ $c1_questions = (array) c1_f( 'ga_questions' );
     </div>
     <div class="ga">
       <form class="ga-card" id="gaForm" onsubmit="return false" data-base="<?php echo esc_attr( (int) c1_f( 'ga_base' ) ); ?>" data-min="<?php echo esc_attr( (int) c1_f( 'ga_min' ) ); ?>" data-max="<?php echo esc_attr( (int) c1_f( 'ga_max' ) ); ?>">
+        <?php if ( ! $c1_lean && c1_f( 'ga_usecase_label' ) ) : ?>
         <label class="lbl" for="useCase"><?php c1_e( 'ga_usecase_label' ); ?></label>
         <textarea id="useCase" placeholder="<?php echo esc_attr( c1_f( 'ga_usecase_placeholder' ) ); ?>"></textarea>
+        <?php endif; ?>
         <?php
 		$c1_n = 0;
 		foreach ( $c1_questions as $c1_q ) :

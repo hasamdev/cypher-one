@@ -29,7 +29,14 @@ $c1_anchor = function ( $row ) {
         <h1 id="oa-title" class="oa-h"><?php c1_h( 'oa_title' ); ?></h1>
         <p class="lede" style="margin-top:18px"><?php c1_h( 'oa_lede' ); ?></p>
       </div>
-      <figure class="oa-fig"><?php get_template_part( 'template-parts/charts/cycle', null, array( 'steps' => $c1_steps ) ); ?></figure>
+      <div class="oa-tl">
+        <div class="tl" aria-label="<?php echo esc_attr( c1_f( 'oa_tl_aria' ) ); ?>">
+          <?php foreach ( $c1_steps as $c1_i => $c1_row ) : ?>
+            <?php $c1_a = $c1_anchor( $c1_row ); ?>
+          <a href="#<?php echo esc_attr( $c1_a ); ?>-title"><i><?php echo esc_html( number_format_i18n( $c1_i + 1 ) ); ?></i><b><?php echo esc_html( $c1_row['name'] ); ?></b><span><?php echo esc_html( ! empty( $c1_row['summary'] ) ? $c1_row['summary'] : $c1_row['title'] ); ?></span></a>
+          <?php endforeach; ?>
+        </div>
+      </div>
     </div>
   </div>
 </section>
@@ -52,8 +59,7 @@ $c1_anchor = function ( $row ) {
     </div>
   </div>
 </section>
-<?php get_template_part( 'template-parts/home/scorecard' ); ?>
-<section class="t-light" id="opmodel" aria-labelledby="op-title">
+<section class="t-grey" id="opmodel" aria-labelledby="op-title">
   <div class="wrap">
     <div class="ln-head"><p class="eyebrow"><?php c1_e( 'op_eyebrow' ); ?></p><h2 id="op-title"><?php c1_h( 'op_title' ); ?></h2>
       <?php if ( c1_f( 'op_lede' ) ) : ?><p class="lede"><?php c1_e( 'op_lede' ); ?></p><?php endif; ?></div>

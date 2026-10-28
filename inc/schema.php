@@ -344,7 +344,7 @@ function c1_ga_default_questions() {
 	};
 	return array(
 		array(
-			'question' => __( 'Where does the data for this process live?', 'cypher-one' ),
+			'question' => __( 'Where does the data for this idea live?', 'cypher-one' ),
 			'options'  => array(
 				$o( __( 'In one system, with an owner', 'cypher-one' ), 15, '', __( 'Data sits in one owned system.', 'cypher-one' ) ),
 				$o( __( 'In a few systems, many owners', 'cypher-one' ), 5, __( 'Data split across a few systems.', 'cypher-one' ) ),
@@ -352,7 +352,7 @@ function c1_ga_default_questions() {
 			),
 		),
 		array(
-			'question' => __( 'How often does this task happen?', 'cypher-one' ),
+			'question' => __( 'How often would this idea be used?', 'cypher-one' ),
 			'options'  => array(
 				$o( __( 'Daily, high volume', 'cypher-one' ), 10, '', __( 'High volume, so savings add up quickly.', 'cypher-one' ) ),
 				$o( __( 'Weekly', 'cypher-one' ), 3, '', __( 'Regular task, so savings are steady.', 'cypher-one' ) ),
@@ -360,7 +360,7 @@ function c1_ga_default_questions() {
 			),
 		),
 		array(
-			'question' => __( 'Can you check whether the AI got it right?', 'cypher-one' ),
+			'question' => __( 'Could you check whether this idea gets it right?', 'cypher-one' ),
 			'options'  => array(
 				$o( __( 'Yes, against rules or records', 'cypher-one' ), 12, '', __( 'Results can be checked against rules or records.', 'cypher-one' ) ),
 				$o( __( 'Partly, informal expert judgement', 'cypher-one' ), 2, __( 'Results need expert review, so testing is harder.', 'cypher-one' ) ),
@@ -368,7 +368,7 @@ function c1_ga_default_questions() {
 			),
 		),
 		array(
-			'question' => __( 'Who would own this AI?', 'cypher-one' ),
+			'question' => __( 'Who would own this idea?', 'cypher-one' ),
 			'options'  => array(
 				$o( __( 'A named owner with budget', 'cypher-one' ), 12, '', __( 'A named owner with budget.', 'cypher-one' ) ),
 				$o( __( 'An interested team, no budget', 'cypher-one' ), -2, __( 'No funded owner yet.', 'cypher-one' ) ),
@@ -376,7 +376,7 @@ function c1_ga_default_questions() {
 			),
 		),
 		array(
-			'question' => __( 'Does it involve personal or regulated data?', 'cypher-one' ),
+			'question' => __( 'Does this idea involve personal or regulated data?', 'cypher-one' ),
 			'options'  => array(
 				$o( __( 'No', 'cypher-one' ), 5, '', __( 'No personal or regulated data involved.', 'cypher-one' ) ),
 				$o( __( 'Yes, with clear policies', 'cypher-one' ), 0, '', __( 'Regulated data, but with clear policies.', 'cypher-one' ) ),
@@ -384,7 +384,7 @@ function c1_ga_default_questions() {
 			),
 		),
 		array(
-			'question' => __( 'Are your executives and staff adequately trained for AI?', 'cypher-one' ),
+			'question' => __( 'Are your executives and staff ready for this idea?', 'cypher-one' ),
 			'options'  => array(
 				$o( __( 'Yes, leaders and teams have been trained', 'cypher-one' ), 8, '', __( 'Leaders and teams are ready to run it and question it.', 'cypher-one' ) ),
 				$o( __( 'Some, informally', 'cypher-one' ), 0, __( 'Training is patchy, so adoption will be uneven.', 'cypher-one' ) ),

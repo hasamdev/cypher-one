@@ -6,7 +6,17 @@
 .ln-head{display:grid;gap:12px;margin-bottom:28px;max-width:62ch}
 .rc-fk{font-size:.75rem;font-weight:800;letter-spacing:.14em;text-transform:uppercase;color:var(--accent-ink);margin-bottom:6px}
 .band .rc-fk{color:#ff9783}
-.oa-grid{display:grid;grid-template-columns:1.1fr .9fr;gap:48px;align-items:center}
+.oa-grid{display:grid;grid-template-columns:1fr;gap:28px}
+.tl{position:relative;display:grid;grid-template-columns:repeat(7,1fr);gap:14px;margin-top:22px}
+.tl::before{content:"";position:absolute;left:3%;right:3%;top:17px;height:2px;background:var(--divider-inv)}
+.tl a{position:relative;padding-top:48px;text-decoration:none;color:var(--band-fg);min-width:0}
+.tl a:hover b{color:#ff9783}
+.tl i{position:absolute;top:0;left:0;width:36px;height:36px;border-radius:50%;background:var(--band);border:2px solid var(--accent);color:#fff;font:800 .85rem/32px var(--f-display);text-align:center;font-style:normal}
+.tl b{display:block;font:800 1.05rem/1.15 var(--f-display);margin-bottom:6px}
+.tl span{display:block;font-size:.86rem;line-height:1.4;color:var(--band-muted)}
+@media (max-width:900px){.tl{grid-template-columns:1fr 1fr}.tl::before{display:none}}
+@media (max-width:520px){.tl{grid-template-columns:1fr}}
+.oa-tl .tl{margin-top:6px}
 .oa-h{font-size:clamp(2.1rem,4.6vw,3.6rem);margin-top:12px}
 .oa-h span,.as-h{color:#ff9783}
 .oa-fig{margin:0;justify-self:end;width:100%;max-width:420px}
@@ -76,3 +86,7 @@
 @media (max-width:1000px){.stk-kinds{grid-template-columns:repeat(3,1fr)}.as-grid{grid-template-columns:1fr}}
 @media (max-width:900px){.oa-grid{grid-template-columns:1fr}.oa-fig{justify-self:start;max-width:360px}.pl{grid-template-columns:1fr 1fr}.pl-id{grid-column:1/-1;grid-template-columns:auto auto 1fr;align-items:center;gap:12px}.pl-n{margin:0}.pl-main,.pl-get{grid-column:1/-1}.pl-get{padding-left:16px}.cap6,.tiers{grid-template-columns:1fr 1fr}}
 @media (max-width:560px){.stk-kinds,.stk-base,.cap6,.tiers{grid-template-columns:1fr}.dash-k{grid-template-columns:1fr 1fr}.dash-k>div:nth-child(2){border-right:0}.dash-k>div:nth-child(-n+2){border-bottom:1px solid var(--band-line)}.st .btn{width:100%;text-align:center}}
+/* slight rounding on diagrams, tables and panels */
+.h3-fig,.gap-chart,.calc,.calc-controls,.calc-viz,.ga-card,.result,.viz-pair,.viz-pair>div,.calc-next,.hbar-track,.hbar-fill,.meter,.meter i,.paper .front,.h3-deliv>div,.hire>div,.ln-step,.ln-prev,.ln-card,.ln-tool,.ln-boxes div,.stat,.cause,.grid3,.grid3>div,.pa,.pieces>div,.ours>div,.tm,.cf-fields input,.cf-fields select,.cf-fields textarea,.cf-other,.ga textarea,.hbar-top,.calc fieldset,.calc-legend,.pl,.pl-ic,.rc,.rc-card,.rt-panel,.rt-tab,.rt-fact,.diagram,.system-fig,.contact-form .cf-fields label input,.ln-pillars a,.chip,.oa-fig,.as-card,.as-grid>div,.ev-card,.rb{border-radius:6px}
+.viz-pair,.grid3{overflow:hidden}
+svg.hero-org rect,.gap-chart svg rect,.diagram svg rect,.system-fig svg rect{rx:4;ry:4}

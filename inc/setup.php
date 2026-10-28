@@ -77,14 +77,34 @@ function c1_body_classes( $classes ) {
 add_filter( 'body_class', 'c1_body_classes' );
 
 /**
- * Keep the old Netlify redirect: /what-we-do → Our Approach.
+ * Keep the old Netlify redirects: /what-we-do → Our Approach,
+ * /tools-cost-of-waiting → /#calculator, /tools-score-an-idea → /#assess.
  */
 function c1_legacy_redirects() {
+	if ( is_page_template( 'page-templates/tools-cost-of-waiting.php' ) ) {
+		wp_safe_redirect( home_url( '/#calculator' ), 301 );
+		exit;
+	}
+	if ( is_page_template( 'page-templates/tools-score-an-idea.php' ) ) {
+		wp_safe_redirect( home_url( '/#assess' ), 301 );
+		exit;
+	}
 	if ( ! is_404() ) {
 		return;
 	}
-	$path = trim( (string) wp_parse_url( isset( $_SERVER['REQUEST_URI'] ) ? wp_unslash( $_SERVER['REQUEST_URI'] ) : '', PHP_URL_PATH ), '/' ); // phpcs:ignore WordPress.Security.ValidatedSanitizedInput.InputNotSanitized
-	$map  = array(
+	$path   = trim( (string) wp_parse_url( isset( $_SERVER['REQUEST_URI'] ) ? wp_unslash( $_SERVER['REQUEST_URI'] ) : '', PHP_URL_PATH ), '/' ); // phpcs:ignore WordPress.Security.ValidatedSanitizedInput.InputNotSanitized
+	$base   = basename( $path );
+	$hashes = array(
+		'tools-cost-of-waiting'      => '/#calculator',
+		'tools-cost-of-waiting.html' => '/#calculator',
+		'tools-score-an-idea'        => '/#assess',
+		'tools-score-an-idea.html'   => '/#assess',
+	);
+	if ( isset( $hashes[ $base ] ) ) {
+		wp_safe_redirect( home_url( $hashes[ $base ] ), 301 );
+		exit;
+	}
+	$map = array(
 		'what-we-do'         => 'approach',
 		'index.html'         => 'home',
 		'why-ai-stalls.html' => 'why',
@@ -94,13 +114,10 @@ function c1_legacy_redirects() {
 		'privacy.html'       => 'privacy',
 		'assessment.html'    => 'assessment',
 		'thanks.html'        => 'thanks',
-		'tools-score-an-idea.html'   => 'score',
-		'tools-cost-of-waiting.html' => 'cost',
-		'readiness-gap.html'         => 'gap',
-		'discovery.html'             => 'discovery',
-		'how-we-work.html'           => 'howwework',
+		'readiness-gap.html' => 'gap',
+		'discovery.html'     => 'discovery',
+		'how-we-work.html'   => 'howwework',
 	);
-	$base = basename( $path );
 	if ( isset( $map[ $base ] ) ) {
 		$url = c1_page_url( $map[ $base ] );
 		if ( $url ) {

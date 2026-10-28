@@ -143,6 +143,21 @@ nav.main a:hover{border-bottom-color:var(--accent)}
 .gap-layout>*{min-width:0}
 .gap-chart{margin:0;background:var(--surface);border:2px solid var(--divider);padding:20px;display:flex;flex-direction:column;justify-content:center}
 .gap-chart svg{display:block;width:100%;height:auto}
+.disc-close{margin-top:36px;padding-top:28px;border-top:2px solid var(--divider);display:grid;grid-template-columns:1.2fr .8fr;gap:32px;align-items:center}
+.disc-close h3{font:800 clamp(1.4rem,2.4vw,2rem)/1.1 var(--f-display);letter-spacing:-.02em;margin:0 0 10px}
+.disc-close .lede{margin:0}
+.disc-close .row{justify-content:flex-end}
+@media (max-width:900px){.disc-close{grid-template-columns:1fr}.disc-close .row{justify-content:flex-start}}
+.gap-chart.gap-dark{background:var(--band);border-color:var(--band)}
+.gap-chart.gap-dark .caption{color:var(--band-muted)}
+.gdraw{stroke-dasharray:1400;stroke-dashoffset:1400;animation:gdraw 2.2s cubic-bezier(.4,0,.2,1) forwards}
+.gdraw.g2{animation-delay:.4s}
+.gfill{opacity:0;animation:gfade 1s ease forwards;animation-delay:1.4s}
+.gfade{opacity:0;animation:gfade .8s ease forwards;animation-delay:1.8s}
+@keyframes gdraw{to{stroke-dashoffset:0}}
+@keyframes gfade{to{opacity:1}}
+@media (prefers-reduced-motion:reduce){.gdraw,.gfill,.gfade{animation:none;stroke-dashoffset:0;opacity:1}}
+
 .gap-side{display:flex;flex-direction:column}
 .gap-points{list-style:none;margin:0;padding:0;flex:1;display:flex;flex-direction:column;justify-content:space-between;border-top:2px solid var(--divider);border-bottom:2px solid var(--divider)}
 .gap-points li{padding:12px 0;border-top:1px solid var(--line);flex:1;display:flex;flex-direction:column;justify-content:center}
@@ -583,3 +598,8 @@ nav.main a[aria-current="page"]{border-bottom-color:var(--accent)}
 .c1-message .lede a{color:inherit;font-weight:700}
 .screen-reader-text{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
 .nav-links{display:flex;gap:16px;font-weight:700}
+
+/* slight rounding on diagrams, tables and panels */
+.h3-fig,.gap-chart,.calc,.calc-controls,.calc-viz,.ga-card,.result,.viz-pair,.viz-pair>div,.calc-next,.hbar-track,.hbar-fill,.meter,.meter i,.paper .front,.h3-deliv>div,.hire>div,.ln-step,.ln-prev,.ln-card,.ln-tool,.ln-boxes div,.stat,.cause,.grid3,.grid3>div,.pa,.pieces>div,.ours>div,.tm,.cf-fields input,.cf-fields select,.cf-fields textarea,.cf-other,.ga textarea,.hbar-top,.calc fieldset,.calc-legend,.pl,.pl-ic,.rc,.rc-card,.rt-panel,.rt-tab,.rt-fact,.diagram,.system-fig,.contact-form .cf-fields label input,.ln-pillars a,.chip,.oa-fig,.as-card,.as-grid>div,.ev-card,.rb{border-radius:6px}
+.viz-pair,.grid3{overflow:hidden}
+svg.hero-org rect,.gap-chart svg rect,.diagram svg rect,.system-fig svg rect{rx:4;ry:4}
