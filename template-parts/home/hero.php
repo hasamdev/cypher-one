@@ -41,5 +41,4 @@ $c1_thoughts = (array) c1_f( 'hero_thoughts' );
     </div>
   </div>
 </section>
-<?php
-get_template_part( 'template-parts/photo', null, array( 'id' => 'photo-home' ) );
+

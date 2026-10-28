@@ -80,11 +80,10 @@ $c1_red = max( 0, min( 100, (int) c1_f( 'wf_red' ) ) );
     </div>
   </div>
 </section>
-<?php get_template_part( 'template-parts/photo', null, array( 'id' => 'photo-why' ) ); ?>
 
 <section class="t-light" id="root-causes" aria-labelledby="rc-title">
   <div class="wrap">
-    <div class="ln-head"><p class="eyebrow"><?php c1_e( 'rc_eyebrow' ); ?></p><h2 id="rc-title"><?php c1_h( 'rc_title' ); ?></h2></div>
+    <div class="ln-head" style="margin-bottom:32px"><p class="eyebrow"><?php c1_e( 'rc_eyebrow' ); ?></p><h2 id="rc-title" style="margin-top:8px"><?php c1_h( 'rc_title' ); ?></h2></div>
     <div class="rc-list">
       <?php foreach ( (array) c1_f( 'rc_causes' ) as $c1_row ) : ?>
       <article class="rc"<?php echo $c1_row['anchor'] ? ' id="' . esc_attr( sanitize_title( $c1_row['anchor'] ) ) . '"' : ''; ?>>

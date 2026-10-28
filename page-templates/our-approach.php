@@ -40,7 +40,6 @@ $c1_anchor = function ( $row ) {
     </div>
   </div>
 </section>
-<?php get_template_part( 'template-parts/photo', null, array( 'id' => 'photo-what' ) ); ?>
 <section class="t-light" id="foundations" aria-labelledby="fd-title">
   <div class="wrap">
     <div class="ln-head"><p class="eyebrow"><?php c1_e( 'st_eyebrow' ); ?></p><h2 id="fd-title"><?php c1_h( 'st_title' ); ?></h2></div>

@@ -9,6 +9,10 @@
 
 defined( 'ABSPATH' ) || exit;
 
+if ( ! empty( $args['id'] ) && ! in_array( $args['id'], array( 'photo-about', 'photo-contact' ), true ) ) {
+	return;
+}
+
 if ( ! c1_f( 'photo_show' ) ) {
 	return;
 }

@@ -603,3 +603,5 @@ nav.main a[aria-current="page"]{border-bottom-color:var(--accent)}
 .h3-fig,.gap-chart,.calc,.calc-controls,.calc-viz,.ga-card,.result,.viz-pair,.viz-pair>div,.calc-next,.hbar-track,.hbar-fill,.meter,.meter i,.paper .front,.h3-deliv>div,.hire>div,.ln-step,.ln-prev,.ln-card,.ln-tool,.ln-boxes div,.stat,.cause,.grid3,.grid3>div,.pa,.pieces>div,.ours>div,.tm,.cf-fields input,.cf-fields select,.cf-fields textarea,.cf-other,.ga textarea,.hbar-top,.calc fieldset,.calc-legend,.pl,.pl-ic,.rc,.rc-card,.rt-panel,.rt-tab,.rt-fact,.diagram,.system-fig,.contact-form .cf-fields label input,.ln-pillars a,.chip,.oa-fig,.as-card,.as-grid>div,.ev-card,.rb{border-radius:6px}
 .viz-pair,.grid3{overflow:hidden}
 svg.hero-org rect,.gap-chart svg rect,.diagram svg rect,.system-fig svg rect{rx:4;ry:4}
+#root-causes .ln-head{display:grid;gap:12px;margin-bottom:32px;max-width:62ch}
+

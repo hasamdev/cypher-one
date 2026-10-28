@@ -26,4 +26,6 @@ if ( '' === trim( (string) $c1_title ) ) {
   </div>
 </section>
 <?php
-get_template_part( 'template-parts/photo', null, array( 'id' => 'photo-' . $args['page_id'] ) );
+if ( in_array( $args['page_id'], array( 'about', 'contact' ), true ) ) {
+	get_template_part( 'template-parts/photo', null, array( 'id' => 'photo-' . $args['page_id'] ) );
+}
